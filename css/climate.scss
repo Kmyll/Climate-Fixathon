@@ -4,7 +4,7 @@
 
 font-family: 'Raleway', sans-serif;
 font-family: 'Merriweather', serif;
-font-family: 'Bitter', serif;
+
 font-family: 'Amatic SC', cursive;
 //font-family: 'Gochi Hand', cursive;
 font-family: 'Nanum Pen Script', cursive;
@@ -41,9 +41,6 @@ body{
   line-height: 1.3rem;
   font-family: 'Raleway', sans-serif;
   padding-bottom: 2.5rem;
-}
-.container{
-  margin: 5% 2%;
 }
 img{
   width: 100%;
@@ -84,13 +81,27 @@ img{
 /* COMMON DESIGN PAGES */
 
 .container{
+    margin: 5% 7%;
   h1{
     text-align: center;
     font-size: 3.5rem;
     color: $darkBlue;
     font-family: 'Amatic SC', cursive;
-
+    margin: 7% 0 5% 0;
   }
+  h2{
+    font-size: 2rem;
+    margin: 5% 0 3% 2%;
+font-family: 'Scheherazade', serif;
+color: $denim;
+  }
+  i{
+    margin-right: 10px;
+  }
+  p{
+    text-align: justify;
+  }
+
 }
 
 
@@ -229,4 +240,25 @@ footer {
       }
     }
   }
+}
+
+/* CAUSES AND RISKS OF CLIMATE FREAKDOWN */
+
+.quote{
+  margin: 4% 0;
+  p, em{
+  color: $lightBlue;
+    text-align: right;
+}
+}
+.second-dropdown{
+  margin: 2% 0 2% 4%;
+}
+.colorBlue{
+  color: $darkBlue;
+  font-weight: bold;
+}
+.colorBrown{
+  color: $lightBrown;
+    font-weight: bold;
 }

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/climate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bitter|Coustard|Fredericka+the+Great|Gochi+Hand|Grand+Hotel|Itim|Merriweather|Nanum+Pen+Script|Nunito|Raleway|Scheherazade&display=swap" rel="stylesheet">
   <title>For a Better World</title>
 </head>
