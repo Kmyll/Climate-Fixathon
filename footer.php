@@ -1,5 +1,5 @@
 <footer>
-  <article class="articles">
+<!--  <article class="articles">
     <h4>We talk about</h4>
     <ul>
       <li>Causes and risks of Global warming</li>
@@ -17,9 +17,10 @@
     <li>Terms of use</li>
     <li>Privacy policy</li>
   </ul>
-  </article>
+  </article>-->
 
 </footer>
 <script src="js/climate.js" type="text/javascript"></script>
+
 </body>
 </html>
