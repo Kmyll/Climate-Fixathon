@@ -15,7 +15,7 @@
 <div class="line"></div>
 <ul>
   <li class="causes">  <a href="causes-and-risks.php"><img src="img/index-icons/causes.png" alt=""> <span>Causes and risks</span></a></li>
-  <li class="government"> <a href="government.php"> <img src="img/index-icons/government.png" alt=""> <span>Governments</span></a></li>
+  <li class="governments"> <a href="government.php"> <img src="img/index-icons/government.png" alt=""> <span>Governments</span></a></li>
   <li class="companies"> <a href="companies.php"> <img src="img/index-icons/companies.png" alt=""> <span>Companies</span></a></li>
   </ul>
   <ul>

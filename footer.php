@@ -21,6 +21,9 @@
 
 </footer>
 <script src="js/climate.js" type="text/javascript"></script>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

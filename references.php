@@ -28,11 +28,18 @@
   <li>https://en.wikipedia.org/wiki/Intergovernmental_Panel_on_Climate_Change</li>
   <li>https://unfccc.int/process-and-meetings/the-kyoto-protocol/what-is-the-kyoto-protocol/kyoto-protocol-targets-for-the-first-commitment-period</li>
   <li>https://ec.europa.eu/clima/policies/strategies/2020_en</li>
-  <li></li>
+  <li>https://unfccc.int/process/conferences/the-big-picture/milestones/bali-road-map</li>
+  <li>https://www.apc-paris.com/cop-21</li>
+  <li>https://en.wikipedia.org/wiki/Global_Climate_Action_Summit</li>
+  <li>https://www.greenclimate.fund/who-we-are/about-the-fund</li>
+  <li>https://www.slideshare.net/tejaswinipingali/earth-summit-53143348</li>
 </ul>
 </section>
 
-
+<h2>COmpanies</h2>
+<ul>
+  <li>https://www.telegraph.co.uk/business/tips-for-the-future/ready-for-climate-change/</li>
+</ul>
 
 
 
