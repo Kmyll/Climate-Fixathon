@@ -36,9 +36,27 @@
 </ul>
 </section>
 
-<h2>COmpanies</h2>
+<h2>Companies</h2>
+
+<h4>For employees</h4>
+<ul>
+<li>https://ec.europa.eu/clima/citizens/tips/work_en</li>
+<li>https://19january2017snapshot.epa.gov/climatechange/what-you-can-do-office_.html</li>
+</ul>
+
+<h4>For Business owners</h4>
 <ul>
   <li>https://www.telegraph.co.uk/business/tips-for-the-future/ready-for-climate-change/</li>
+  <li>https://www.renewableenergymagazine.com/emily-folk/how-climate-change-will-affect-businesses-20181109</li>
+  <li>https://www.bsr.org/en/our-insights/report-view/climate-change-and-supply-chain-the-business-case-for-action</li>
+  <li>https://www.sustainablebusinesstoolkit.com/5-ways-to-reduce-carbon-footprint/</li>
+</ul>
+
+<h2>Lifestyle</h2>
+
+<ul>
+  <li>https://www.northwestern.edu/fm/fm-staff/10-ways-to-stop-global-warming.html</li>
+  <li>https://www.curbed.com/2017/6/7/15749900/how-to-stop-climate-change-actions</li>
 </ul>
 
 
