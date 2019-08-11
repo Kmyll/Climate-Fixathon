@@ -57,9 +57,22 @@
 <ul>
   <li>https://www.northwestern.edu/fm/fm-staff/10-ways-to-stop-global-warming.html</li>
   <li>https://www.curbed.com/2017/6/7/15749900/how-to-stop-climate-change-actions</li>
+  <li>https://davidsuzuki.org/what-you-can-do/top-10-ways-can-stop-climate-change/</li>
 </ul>
 
+<h2>Food</h2>
+<ul>
+  <li>http://www.greeneatz.com/foods-carbon-footprint.html</li>
+  <li>https://foodtank.com/news/2013/12/why-meat-eats-resources/</li>
+  <li>https://m.phys.org/news/2018-04-environmental-footprint-egg-industry.html</li>
+  <li>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2984095/</li>
+  <li>https://www.produceretailer.com/article/news-article/2018-dirty-dozen-and-clean-15-lists-released</li>
+</ul>
 
-
+<h2>Transports</h2>
+<ul>
+  <li>https://cotap.org/reduce-carbon-emissions/</li>
+  <li>http://www.globalstewards.org/reduce-carbon-footprint.html</li>
+</ul>
 
 <?php include "footer.php" ?>

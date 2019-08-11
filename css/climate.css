@@ -44,15 +44,40 @@ p, li {
   text-align: justify;
 }
 
+.bottom-cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  font-size: 1.4rem;
+}
+.bottom-cta button {
+  padding: 1% 2%;
+  border-radius: 5px;
+  margin: 1%;
+}
+.bottom-cta button a {
+  text-decoration: none;
+}
+
+.cta {
+  background-color: #86B3DF;
+  border: none;
+  color: white !important;
+}
+
+.top {
+  border: 2px solid #86B3DF;
+  color: #0050A1 !important;
+  background-color: white;
+}
+
 /* MAIN NAVIGATION */
 .header-nav {
-  background-color: rgba(161, 156, 133, 0.5);
+  background-color: #a19c96;
   position: relative;
   z-index: 8;
-}
-.header-nav:hover {
-  transition: 0.3s ease-in-out;
-  background-color: rgba(180, 156, 133, 0.8);
 }
 .header-nav ul {
   margin-left: 40%;
@@ -80,7 +105,7 @@ p, li {
 .container h1 {
   text-align: center;
   font-size: 3.5rem;
-  color: #5F7C98;
+  color: #0050A1;
   font-family: "Amatic SC", cursive;
   margin: 7% 0 5% 0;
 }
@@ -88,11 +113,17 @@ p, li {
   font-size: 2rem;
   margin: 5% 0 3% 2%;
   font-family: "Scheherazade", serif;
-  color: #8CA1BC;
+  color: #0050A1;
+}
+.container h3 {
+  font-size: 1.7rem;
+  margin: 2% 0 3% 2%;
+  font-family: "Scheherazade", serif;
+  color: #86B3DF;
 }
 .container i {
   margin-right: 10px;
-  color: #8CA1BC;
+  color: inherit;
 }
 .container p {
   text-align: justify;
@@ -235,7 +266,7 @@ footer article ul li {
   margin: 4% 0;
 }
 .quote p, .quote em {
-  color: #9CC4D4;
+  color: #86B3DF;
   text-align: right;
 }
 
@@ -244,7 +275,7 @@ footer article ul li {
 }
 
 .colorBlue {
-  color: #5F7C98;
+  color: #0050A1;
   font-weight: bolder;
 }
 
@@ -271,20 +302,25 @@ footer article ul li {
 }
 
 /**** SLIDESHOW ****/
-.mySlides {
+.mySlides1, .mySlides2 {
   display: none;
 }
 
-img {
+.mySlides1 img, .mySlides2 img {
   vertical-align: middle;
+  border-radius: 5px;
 }
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 800px;
   position: relative;
-  margin: auto;
-  margin-top: 4%;
+  margin: 3% auto;
+}
+.slideshow-container .text {
+  font-style: italic;
+  margin: 2% auto;
+  text-align: center;
 }
 
 /* Next & previous buttons */
@@ -309,58 +345,25 @@ img {
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a grey background color */
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
+  background-color: #f1f1f1;
+  padding: 12px;
+  color: black;
   border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 1.9s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1.9s;
 }
 
 @-webkit-keyframes fade {
   from {
-    opacity: 0.4;
+    opacity: 0.6;
   }
   to {
     opacity: 1;
@@ -368,16 +371,10 @@ img {
 }
 @keyframes fade {
   from {
-    opacity: 0.4;
+    opacity: 0.6;
   }
   to {
     opacity: 1;
-  }
-}
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next, .text {
-    font-size: 11px;
   }
 }
 /* PICTURES */
@@ -499,7 +496,7 @@ img {
 }
 #timeline .timeline-item .timeline-content h2 {
   padding: 15px;
-  background: #5F7C98;
+  background: #0050A1;
   color: #fff;
   margin: -20px -20px 0 -20px;
   font-weight: 300;
@@ -517,7 +514,7 @@ img {
   height: 0;
   border-top: 7px solid transparent;
   border-bottom: 7px solid transparent;
-  border-left: 7px solid #5F7C98;
+  border-left: 7px solid #0050A1;
 }
 #timeline .timeline-item .timeline-content.right {
   float: right;
@@ -527,7 +524,7 @@ img {
   right: 45%;
   left: inherit;
   border-left: 0;
-  border-right: 7px solid #5F7C98;
+  border-right: 7px solid #0050A1;
 }
 
 .btn {
@@ -571,7 +568,7 @@ img {
     left: 10%;
     margin-left: -6px;
     border-left: 0;
-    border-right: 7px solid #5F7C98;
+    border-right: 7px solid #0050A1;
   }
   #timeline .timeline-item .timeline-icon {
     left: 0;
@@ -598,7 +595,7 @@ img {
 }
 .employers-actions li div {
   font-weight: bold;
-  color: #9CC4D4;
+  color: #86B3DF;
   font-size: 1.2rem;
 }
 
@@ -657,6 +654,69 @@ img {
   background-color: #0050A1;
   display: block;
   margin: 1% auto 3%;
+}
+
+/* TO DO LIST SECTION */
+/* FOOD */
+.eggs {
+  width: 280px;
+  float: right;
+  clear: both;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-left: 2%;
+}
+
+.dairy {
+  width: 250px;
+  float: left;
+  clear: both;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: -3% 3% 1% 0;
+}
+
+.veggies {
+  width: 400px;
+  float: right;
+  clear: both;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0% 0% 0% 3%;
+}
+
+.water-map {
+  width: 400px;
+  float: right;
+  clear: both;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.water {
+  width: 600px;
+  border-radius: 5px;
+  margin: 2%;
+}
+
+.organic {
+  width: 400px;
+  float: left;
+  clear: both;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: -2% 3% 1% 0%;
+}
+
+/* LIFESTYLE BUBBLES */
+/* TRANSPORT */
+.train-station {
+  float: right;
+  clear: both;
+  overflow: hidden;
+  max-width: 310px;
+  border-radius: 5px;
+  margin: 1% 0 1% 3%;
 }
 
 /*# sourceMappingURL=climate.css.map */

@@ -1,4 +1,5 @@
 <?php include "header.php" ?>
+<script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 
 <section class="container">
 
@@ -71,76 +72,95 @@ During this second revolution, World power countries like Europle, the USA and J
 
 
 <div class="slideshow-container">
-
-  <div class="mySlides fade">
+  <div class="mySlides1 fade">
     <img src="img/risks/toomas-tartes-27HacQwqvA0-unsplash.jpg" style="width:100%">
     <div class="text">Overflowding in Asia</div>
   </div>
 
-<div class="mySlides fade">
+<div class="mySlides1 fade">
   <img src="img/risks/arny-mogensen-rRgO49i8w2s-unsplash.jpg" style="width:100%">
   <div class="text">Fire during heat waves all around to world</div>
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides1 fade">
   <img src="img/risks/bas-emmen-EXpa6pyXkHA-unsplash.jpg" style="width:100%">
   <div class="text">Non-recycled waste</div>
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides1 fade">
   <img src="img/risks/desert-1803878_1920.jpg" style="width:100%">
   <div class="text">Dry soil</div>
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides1 fade">
   <img src="img/risks/henry-co-cZpvuwwQQg0-unsplash.jpg" style="width:100%">
   <div class="text">Outdoor garbage</div>
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides1 fade">
   <img src="img/risks/ian-froome-AJFdEo-DKCg-unsplash.jpg" style="width:100%">
   <div class="text">Storms, including typhoons and cyclones</div>
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides1 fade">
   <img src="img/risks/jacqueline-godany-N6SvY-wAl0w-unsplash.jpg" style="width:100%">
   <div class="text">Melting ice</div>
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides1 fade">
   <img src="img/risks/ken-treloar-pFoA5Pphb-Q-unsplash.jpg" style="width:100%">
   <div class="text">Health issues, including skin cancers and Malaria</div>
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides1 fade">
   <img src="img/risks/patrick-hendry-6xeDIZgoPaw-unsplash.jpg" style="width:100%">
   <div class="text">Electrical and fossil fuel plants</div>
 </div>
 
-<div class="mySlides fade">
+<div class="mySlides1 fade">
   <img src="img/risks/sandy-millar-uwnkpSgADTg-unsplash.jpg" style="width:100%">
   <div class="text">the disappearance of the now protected species</div>
 </div>
 
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 </div>
 
-<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-  <span class="dot" onclick="currentSlide(5)"></span>
-  <span class="dot" onclick="currentSlide(6)"></span>
-  <span class="dot" onclick="currentSlide(7)"></span>
-  <span class="dot" onclick="currentSlide(8)"></span>
-  <span class="dot" onclick="currentSlide(9)"></span>
-  <span class="dot" onclick="currentSlide(10)"></span>
+
 </div>
 
 

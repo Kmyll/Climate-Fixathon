@@ -20,10 +20,10 @@
   </article>-->
 
 </footer>
-<script src="js/climate.js" type="text/javascript"></script>
+
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script> AOS.init();</script>
+<script src="js/climate.js" type="text/javascript"></script>
 </body>
 </html>

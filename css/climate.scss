@@ -18,11 +18,12 @@ font-family: 'Coustard', serif;
 
 /* COLOR PALETTE */
 
-$lightBlue: #9CC4D4;
+$lightBlue: #86B3DF;
+$orange: #FFCC99;
 $grey: #8992a0;
 $brown: #87858b;
 $lightBrown: #a19c96;
-$darkBlue: #5F7C98;
+$darkBlue: #0050A1;
 $denim: #8CA1BC;
 
 /*  GENERAL STYLE */
@@ -54,16 +55,44 @@ p, li{
   text-align: justify;
 }
 
+.bottom-cta{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  font-size: 1.4rem;
+  button{
+    padding: 1% 2%;
+    border-radius: 5px;
+    margin: 1%;
+    a{
+      text-decoration: none;
+    }
+  }
+}
+.cta{
+  background-color: $lightBlue;
+  border: none;
+  color: white!important;
+}
+.top{
+  border: 2px solid $lightBlue;
+  color: $darkBlue!important;
+  background-color: white;
+}
+
+
+
+
 /* MAIN NAVIGATION */
 
 .header-nav{
-  background-color: rgba(161, 156, 133, 0.5);
+  background-color: $lightBrown;
   position: relative;
   z-index: 8;
-  &:hover{
-    transition: .3s ease-in-out;
-    background-color: rgba(180, 156, 133, 0.8);
-  }
+
+
   ul{
     margin-left: 40%;
     display: flex;
@@ -100,16 +129,22 @@ p, li{
     font-size: 2rem;
     margin: 5% 0 3% 2%;
     font-family: 'Scheherazade', serif;
-    color: $denim;
+    color: $darkBlue;
   }
+
+h3{
+  font-size: 1.7rem;
+  margin: 2% 0 3% 2%;
+  font-family: 'Scheherazade', serif;
+  color: $lightBlue;
+}
   i{
     margin-right: 10px;
-      color: $denim;
+      color: inherit;
   }
   p{
     text-align: justify;
   }
-
 }
 
 
@@ -288,15 +323,25 @@ footer {
 
 /**** SLIDESHOW ****/
 
-.mySlides {display: none}
-img {vertical-align: middle;}
+.mySlides1, .mySlides2 {
+  display: none;
+}
+  .mySlides1 img, .mySlides2 img {
+    vertical-align: middle;
+      border-radius: 5px;
+  }
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 800px;
   position: relative;
-  margin: auto;
-  margin-top: 4%;
+  margin: 3% auto;
+
+  .text{
+    font-style: italic;
+    margin: 2% auto;
+    text-align: center;;
+  }
 }
 
 /* Next & previous buttons */
@@ -312,78 +357,39 @@ img {vertical-align: middle;}
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  user-select: none;
-}
+  user-select: none; }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
-}
+  border-radius: 3px 0 0 3px; }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a grey background color */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
+  background-color: #f1f1f1;
+  padding: 12px;
+  color: black;
   border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 1.9s;
   animation-name: fade;
-  animation-duration: 1.5s;
-}
+  animation-duration: 1.9s; }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
+  from {
+    opacity: .6; }
+  to {
+    opacity: 1; } }
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
+  from {
+    opacity: .6; }
+  to {
+    opacity: 1; } }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
 
 
 /* PICTURES */
@@ -691,4 +697,72 @@ border-radius: 5px;
       margin: 1% auto 3%;
 
   }
+}
+
+
+/* TO DO LIST SECTION */
+
+
+
+
+/* FOOD */
+
+.eggs{
+  width: 280px;
+  float: right;
+  clear: both;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-left: 2%;
+}
+.dairy{
+  width: 250px;
+  float: left;
+  clear: both;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: -3% 3% 1% 0;
+}
+.veggies{
+  width: 400px;
+  float: right;
+  clear: both;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0% 0% 0% 3%;
+}
+.water-map{
+  width: 400px;
+  float: right;
+  clear: both;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.water{
+  width: 600px;
+  border-radius: 5px;
+  margin: 2%;
+}
+.organic{
+  width: 400px;
+  float: left;
+  clear: both;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: -2% 3% 1% 0%;
+}
+
+/* LIFESTYLE BUBBLES */
+
+	
+
+/* TRANSPORT */
+
+.train-station{
+float: right;
+clear: both;
+overflow: hidden;
+max-width: 310px;
+border-radius: 5px;
+margin: 1% 0 1% 3%;
 }
