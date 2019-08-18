@@ -31,13 +31,13 @@
   <header>
     <nav class="header-nav">
       <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="world-actions.php">The world's actions</a></li>
+        <li><a href="index.php"><i class="fas fa-home home-icon" style="color: white;"></i></a></li>
+        <li><a href="index.php#world">The world's actions</a></li>
         <li><a href="governments.php">Governments timeline</a></li>
-        <li><a href="help.php">How to help</a></li>
-        <li><a href="to-do.php">To do list</a></li>
+        <li><a href="causes-and-risks.php">Causes and risks</a></li>
         <li><a href="quiz.php">Are you there yet?</a></li>
       </ul>
     </nav>
   </header>
   <body>
+<a href="#"></a>

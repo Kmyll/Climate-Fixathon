@@ -7,7 +7,8 @@
 
 <h2><i class="fas fa-seedling"></i> How it began</h2>
 
-<img class="causesPic1" src="img/riskspictures/air-pollution-atmosphere-carbon-929382.jpg" alt="boat and air pollution">
+<div data-aos="fade-left">
+<img class="causesPic1" src="img/riskspictures/air-pollution-atmosphere-carbon-929382.jpg" alt="boat and air pollution"></div>
 
 <p>The origins of "climate change" is linked to the second industrial revolution, starting at around 1880. At the same time, scientists discover that CO2 is linked to Global Warming: the world <b>"greenhouse effect"</b> was born. <br><br>
 
@@ -22,7 +23,8 @@ During this second revolution, World power countries like Europle, the USA and J
 
 
 <h2><i class="fas fa-globe-africa"></i> Main causes of climate breakdown</h2>
-<img class="causesPic1 causesPic2" src="img/riskspictures/bird-s-eye-view-deforestation-high-1268076.jpg" alt="">
+<div data-aos="fade-right">
+<img class="causesPic1 causesPic2" src="img/riskspictures/bird-s-eye-view-deforestation-high-1268076.jpg" alt=""></div>
 <p>Our planet is a living organism so it naturally variates in temperatures and other natural occurences. The causes are therefore multiples and somewhat natural, including volcanism activity, orbital variations and so on. <br><br>
 
   <b>However, human contribution and activities has largly increased its downfall, by:</b></p> <br><br>
@@ -36,7 +38,8 @@ During this second revolution, World power countries like Europle, the USA and J
 
 
   <li><span class="colorBlue">Deforestation and land use:</span>  responsible for 9% of the total CO2 emissions, it includes deforestation (for wood use or to convert the land into farming exploitation). Trees acts like "carbon sinks", so by reducing their quantities, the CO2 increase.</li><br>
-<img class="causesPic1 causesPic3" src="img/riskspictures/animal-bull-cattle-457447.jpg" alt="Cow">
+  <div data-aos="fade-left">
+<img class="causesPic1 causesPic3" src="img/riskspictures/animal-bull-cattle-457447.jpg" alt="Cow"></div>
   <li><span class="colorBlue">Ozone depletion:</span>  The ozone layer is a protection from our planet against UV rays and is composed of 3 oxygens atoms. However, human activities has  created an "ozone hole" (a region with depleted ozone) by man-made chemicals (CFCs and HCFCs), used in refregirators and Air conditioners, aerosols sprays, household cleaning products, home fournishing rigid and semi-rigid foams to isolate, packagings, plastics, eggs packaging, cups, fast food cartons, fire estinguishers, and textiles and lectronics industries. Ozone depletion is very dangerous and alarming because if we are not protected by this "natural protection", we have a highest risk of sunburns that have been linked with skin cancers, like in New Zealand and <a href="https://m.medicalxpress.com/news/2010-12-australians-world-highest-skin-cancer.html">Australia</a>.</li><br>
   <li><span class="colorBlue">Methane emissions:</span> is, according to National Geographic, about 28 times more powerful than carbon dioxide over a 100 years scale and is therefore another greenhouse gas. However, researchers found that Methane stays in the atmosphere for around 12 years, contrary to ver a hunder years for carbon dioxide. Methane comes mainly from 2 sources:
     <ul class="second-dropdown">
@@ -126,47 +129,6 @@ During this second revolution, World power countries like Europle, the USA and J
   <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div style="text-align:center">
-
-</div>
-
-
-
-
-
 <h2><i class="far fa-lightbulb"></i> Now</h2>
 <section class="causes-conclu-section">
 
@@ -174,7 +136,13 @@ During this second revolution, World power countries like Europle, the USA and J
 <p class="causes-prevention">And we have 12 years to do so.</p>
 
 <p class="causes-conclusion">It's more than time to start now.</p> <br><br>
-<img class="causesPic4" src="img/riskspictures/bright-bulb-close-up-1108572.jpg" alt="bulb and soil life">
+
+<section class="bottom-cta">
+<button class="top" type="button" name="button"><a href="#top">Go back to top</a></button>
+<button class="cta" type="button" name="button"><a href="lifestyle.php">See how you can make a change</a></button>
+</section>
+<div data-aos="fade-up-right"></div>
+<img class="causesPic4" src="img/riskspictures/bright-bulb-close-up-1108572.jpg" alt="bulb and soil life"></div>
 </section>
 </section>
 

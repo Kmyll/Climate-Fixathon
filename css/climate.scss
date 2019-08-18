@@ -62,15 +62,22 @@ p, li{
   align-items: center;
   margin-top: 3%;
   font-size: 1.4rem;
+  color: white;
   button{
-    padding: 1% 2%;
+    padding: 10px 15px;
     border-radius: 5px;
     margin: 1%;
+    &:hover{
+      background-color: $denim;
+      transition: all 1s ease-out;
+    }
     a{
       text-decoration: none;
     }
   }
 }
+
+
 .cta{
   background-color: $lightBlue;
   border: none;
@@ -206,6 +213,7 @@ h3{
 
 /* ICONS INDEX PAGES OF GLOBAL BREAKDOWN ACTORS*/
 
+
 .bubble-presentation{
   background-color: $lightBrown;
   h2{
@@ -310,6 +318,9 @@ footer {
   margin-right: auto;
   margin-left: auto;
   display: block;
+  a{
+    text-decoration: none;
+  }
 }
 .causes-prevention{
   font-size: 1.4rem;
@@ -412,7 +423,7 @@ margin-top: 3%;
 }
 .causesPic4{
   max-width: 600px;
-  margin: 2% auto;
+  margin: 3% auto 2%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -752,10 +763,6 @@ border-radius: 5px;
   margin: -2% 3% 1% 0%;
 }
 
-/* LIFESTYLE BUBBLES */
-
-	
-
 /* TRANSPORT */
 
 .train-station{
@@ -765,4 +772,143 @@ overflow: hidden;
 max-width: 310px;
 border-radius: 5px;
 margin: 1% 0 1% 3%;
+}
+
+
+/* QUIZ */
+
+.text-center {
+margin: 0 10%;
+background-color: white;
+padding: 2%;
+border: 1px solid $lightBlue;
+border-radius: 10px;
+}
+
+
+.quiz-explaination-para{
+    text-align: center!important;
+    font-style: italic;
+    font-size: 1rem;
+    margin: 1% auto 4%;
+}
+
+.prompt {
+display: block;
+font-size: 1.1rem;
+margin: 1% auto 3% auto;
+font-weight: 600;
+p{
+    text-align: center!important;
+}
+}
+.btn-group{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+margin: 1% auto 2% auto;
+box-shadow: none;
+}
+
+.btn-default {
+padding: 10px 18px;
+background-color: $denim;
+border: none;
+font-size: 0.8rem;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+}
+
+.quiz-submit-btn{
+padding: 10px 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 2px solid $denim;
+border-radius: 5px;
+color: $denim;
+cursor: pointer;
+margin: 0 auto;
+font-size: 1rem;
+
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+position: relative;
+-webkit-transition-property: color;
+transition-property: color;
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+}
+.quiz-submit-btn:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $denim;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.quiz-submit-btn:hover, .quiz-submit-btn:focus, .quiz-submit-btn:active {
+  color: white;
+  outline: none;
+}
+.quiz-submit-btn:hover:before, .quiz-submit-btn:focus:before, .quiz-submit-btn:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  outline: none;
+}
+
+
+
+
+.btn-default.active,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:active:focus,
+.btn-default.active:focus,
+.btn-default:hover
+{
+background-color: $lightBlue;
+transition: all 1s ease-out;
+outline: none;
+cursor: pointer;
+}
+
+
+.bottom {
+margin-bottom: 100px;
+}
+
+.hide {
+display: none;
+}
+
+.show {
+display: block;
+}
+
+/* RESULTS */
+.results {
+margin-bottom: 40px;
+margin-top: 40px;
+}
+.quiz-result-title{
+text-align: center;
+font-size: 1.7rem;
+color: $darkBlue;
 }

@@ -26,10 +26,15 @@
   <em>David Suzuki</em></p>
     <img class="quotemarks2"src="img/quote2.svg" alt="">
 </article>
-
-
 	<svg width="100%" height="700" font-family="sans-serif" font-size="10" text-anchor="middle" margin: "margin: 0 auto 0 -30%;"></svg>
 
+
+
+<section class="bottom-cta">
+<button class="cta" type="button" name="button"><a href="food.php">Changes you can make in your plate</a></button>
+<button class="top" type="button" name="button"><a href="#top">Go back to top</a></button>
+<button class="cta" type="button" name="button"><a href="transports.php">Changes you can make when commuting</a></button>
+</section>
 
 	<script>
 		// Based loosely from this D3 bubble graph https://bl.ocks.org/mbostock/4063269

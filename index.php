@@ -33,5 +33,7 @@
   <div class="line2"></div>
 
   <?php include "map.php" ?>
+<div class="" id="world">
 
+</div>
 </section>

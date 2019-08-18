@@ -52,6 +52,10 @@
       </ul>
     </div>
 
+    <section class="bottom-cta">
+    <button class="top" type="button" name="button"><a href="#top">Go back to top</a></button>
+    <button class="cta" type="button" name="button"><a href="governments.php">Check out what Governments do</a></button>
+</section>
     <img class="business-picture" src="img/companies/camera-coffee-composition-1509428.jpg" alt="business strategy image">
 
     <?php include "footer.php" ?>
