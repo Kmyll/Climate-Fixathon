@@ -1,7 +1,5 @@
 <?php include "header.php" ?>
 
-
-
 <section class="header-img">
 <div class="presentation">
   <h1>For a better world</h1>
@@ -37,3 +35,5 @@
 
 </div>
 </section>
+
+<?php include "footer.php" ?>

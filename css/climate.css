@@ -79,10 +79,19 @@ p, li {
 }
 
 /* MAIN NAVIGATION */
+.map-header {
+  color: white;
+  text-decoration: none;
+}
+
 .header-nav {
   background-color: #a19c96;
   position: relative;
   z-index: 8;
+}
+.header-nav .map-header a {
+  color: white;
+  text-transform: uppercase;
 }
 .header-nav ul {
   margin-left: 40%;
@@ -101,6 +110,18 @@ p, li {
 .header-nav ul li a {
   text-decoration: none;
   color: white;
+}
+
+.toggle {
+  width: 100%;
+  padding: 10px 20px;
+  text-align: right;
+  box-sizing: border-box;
+  display: none;
+}
+.toggle i {
+  color: white;
+  font-size: 30px;
 }
 
 /* COMMON DESIGN PAGES */
@@ -189,6 +210,14 @@ p, li {
 }
 
 /* ICONS INDEX PAGES OF GLOBAL BREAKDOWN ACTORS*/
+.legendCells, .legend-color {
+  display: block;
+}
+
+.legend-size {
+  display: block;
+}
+
 .bubble-presentation {
   background-color: #a19c96;
 }
@@ -236,34 +265,57 @@ p, li {
 }
 
 /* FOOTER */
-footer {
+.content {
+  min-height: calc(100vh - 70px);
+}
+
+.footer {
+  height: 200px;
+  background-color: #a19c96;
+  color: white;
+  text-decoration: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: baseline;
-  background-color: rgba(180, 156, 133, 0.5);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  align-items: center;
 }
-footer:hover {
-  background-color: rgba(180, 156, 133, 0.8);
-  transition: 0.3s ease-in-out;
+.footer ul a li {
+  text-decoration: none;
 }
-footer article h4 {
+
+.articles, .legal, .leaf {
+  padding-top: 1%;
+}
+.articles h4, .legal h4, .leaf h4 {
   font-variant: small-caps;
   font-size: 1.5rem;
   margin-bottom: 3%;
   color: white;
   padding-top: 8%;
 }
-footer article ul {
+.articles ul, .legal ul, .leaf ul {
   font-size: 0.8rem;
   padding: 4% 0;
-}
-footer article ul li {
-  color: white;
   list-style: circle;
+}
+.articles ul a, .legal ul a, .leaf ul a {
+  text-decoration: none;
+}
+.articles ul a li, .legal ul a li, .leaf ul a li {
+  color: white;
+}
+
+.leaf {
+  align-items: center;
+}
+.leaf i {
+  color: white;
+  font-size: 3rem;
+  cursor: pointer;
+}
+.leaf i:hover {
+  color: #76ef3d;
+  transition: all 1s ease-out;
 }
 
 /* CAUSES AND RISKS OF CLIMATE BREAKDOWN */
@@ -664,7 +716,6 @@ footer article ul li {
   margin: 1% auto 3%;
 }
 
-/* TO DO LIST SECTION */
 /* FOOD */
 .eggs {
   width: 280px;
@@ -727,138 +778,120 @@ footer article ul li {
 }
 
 /* QUIZ */
-.text-center {
-  margin: 0 10%;
-  background-color: white;
-  padding: 2%;
-  border: 1px solid #86B3DF;
-  border-radius: 10px;
+#form div {
+  margin: auto;
+  max-width: 525px;
+  text-align: left;
+}
+#form div input {
+  margin: 0 3%;
 }
 
 .quiz-explaination-para {
   text-align: center !important;
-  font-style: italic;
-  font-size: 1rem;
-  margin: 1% auto 4%;
 }
 
-.prompt {
-  display: block;
-  font-size: 1.1rem;
-  margin: 1% auto 3% auto;
-  font-weight: 600;
-}
-.prompt p {
-  text-align: center !important;
+.quiz-header {
+  margin: 3% auto 5% auto !important;
 }
 
-.btn-group {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  margin: 1% auto 2% auto;
-  box-shadow: none;
+.quiz-img {
+  max-width: 800px;
+  height: auto;
+  margin: 3%;
+  border-radius: 10px;
 }
 
-.btn-default {
-  padding: 10px 18px;
-  background-color: #8CA1BC;
-  border: none;
-  font-size: 0.8rem;
+.start-button {
+  padding: 10px 15px;
   border-radius: 5px;
-  color: white;
-  cursor: pointer;
-}
-
-.quiz-submit-btn {
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid #8CA1BC;
-  border-radius: 5px;
-  color: #8CA1BC;
-  cursor: pointer;
-  margin: 0 auto;
-  font-size: 1rem;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-}
-
-.quiz-submit-btn:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #8CA1BC;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transform-origin: 0 50%;
-  transform-origin: 0 50%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-
-.quiz-submit-btn:hover, .quiz-submit-btn:focus, .quiz-submit-btn:active {
-  color: white;
-  outline: none;
-}
-
-.quiz-submit-btn:hover:before, .quiz-submit-btn:focus:before, .quiz-submit-btn:active:before {
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-  outline: none;
-}
-
-.btn-default.active,
-.btn-default:active,
-.btn-default:focus,
-.btn-default:active:focus,
-.btn-default.active:focus,
-.btn-default:hover {
-  background-color: #86B3DF;
-  transition: all 1s ease-out;
-  outline: none;
-  cursor: pointer;
-}
-
-.bottom {
-  margin-bottom: 100px;
-}
-
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
-/* RESULTS */
-.results {
-  margin-bottom: 40px;
-  margin-top: 40px;
-}
-
-.quiz-result-title {
-  text-align: center;
-  font-size: 1.7rem;
+  border: 1Px solid #0050A1;
   color: #0050A1;
+  font-weight: 700;
+  text-decoration: none;
+}
+.start-button:hover {
+  background: #0050A1;
+  color: white;
+  transition: all 1s ease-out;
+}
+
+#result {
+  font-family: "Press Start 2P", cursive !important;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #0050A1;
+  text-decoration: none;
+}
+
+/* MEDIA QUIERIES */
+@media only screen and (max-width: 1100px) {
+  .project-name {
+    font-size: 2.5rem;
+  }
+
+  .container h1 {
+    font-size: 2.5rem;
+  }
+  .container h2 {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .toggle {
+    display: block;
+  }
+
+  .header-nav ul {
+    width: 100%;
+    display: none;
+  }
+  .header-nav li {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #DCDAD8;
+    padding: 1% 0;
+  }
+  .header-nav li:hover {
+    background-color: #ADA8A3;
+  }
+  .header-nav li:active {
+    display: block;
+    background-color: #ADA8A3;
+  }
+  .header-nav li a {
+    text-align: center;
+    line-height: 2rem;
+  }
+
+  .header-nav ul {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .presentation h1 {
+    font-size: 4.3rem;
+  }
+  .presentation h2 {
+    font-size: 2rem;
+  }
+
+  .bubble-presentation h2 {
+    font-size: 2rem;
+  }
+
+  .map, .map-header {
+    display: none;
+  }
+
+  .project-name {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+
+  .causesRisk h1 {
+    line-height: 1;
+  }
 }
 
 /*# sourceMappingURL=climate.css.map */

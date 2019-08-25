@@ -12,7 +12,7 @@
 <div class="container lifestyle" id="top">
   <h1>Lifestyle</h1>
 
-<p>Our day to day activities can greatly influence our carbon emission and therefore contribute to the global carbon footprint. Put your mouse over every rot to see how you can reduce your own carbon footprint.</p>
+<p>Our day to day activities can greatly influence our carbon emission and therefore contribute to the global carbon footprint. Here are some ideas you can implement to reduce your carbon emissions.</p>
 
 
 
@@ -40,178 +40,178 @@
 		// Based loosely from this D3 bubble graph https://bl.ocks.org/mbostock/4063269
 		// And this Forced directed diagram https://bl.ocks.org/mbostock/4062045
 		let data = [{
-			cat: 'library', name: 'organic', value: 40,
+			cat: 'Shopping', name: 'organic', value: 40,
 			icon: 'Buy ;organic ;products',
 			desc: `
 
 			`
 		}, {
-			cat: 'framework', name: 'Buy fair trade', value: 40,
+			cat: 'Shopping', name: 'Buy fair trade', value: 40,
 			icon: 'Buy ; fair ; trade',
 			desc: `
 
 			`
 		}, {
-			cat: 'tooling', name: 'drive', value: 70,
+			cat: 'Travel', name: 'drive', value: 70,
 			icon: 'Drive less; walk and; bike more; often',
 			desc: `
 
 			`
 		}, {
-			cat: 'library', name: 'food', value: 50,
+			cat: 'Shopping', name: 'food', value: 50,
 			icon: 'Consume less; waste less',
 			desc: `
 			`
 		}, {
-			cat: 'framework', name: 'food', value: 40,
+			cat: 'Shopping', name: 'food', value: 40,
 			icon: 'Eat ;less ;meat',
 			desc: `
 				`
 		}, {
-			cat: 'library', name: 'Litter', value: 40,
+			cat: 'Behavior', name: 'Litter', value: 40,
 			icon: 'Do not;litter',
 			desc: `
 
 			`
 		}, {
-			cat: 'tooling', name: '', value: 50,
+			cat: 'Behavior', name: '', value: 50,
 			icon: 'recycle your; household waste',
 			desc: `
 			`
 		}, {
-			cat: 'framework', name: 'energy', value: 30,
+			cat: 'Behavior', name: 'energy', value: 30,
 			icon: 'Use energy ; wisely',
 			desc: `
 
 			`
 		}, {
-			cat: 'tooling', name: 'water', value: 40,
+			cat: 'Behavior', name: 'water', value: 40,
 			icon: 'use water; responsively',
 			desc: `
 			`
 		},  {
-			cat: 'framework', name: 'paper', value: 50,
+			cat: 'Behavior', name: 'paper', value: 50,
 			icon: 'Limit your ;paper ;consumption',
 			desc: `
 
 			`
 		}, {
-			cat: 'library', name: 'commute', value: 40,
+			cat: 'Travel', name: 'commute', value: 40,
 			icon: 'Work from ; home',
 			desc: `
 
 			`
 		}, {
-			cat: 'tooling', name: 'water', value: 30,
+			cat: 'Behavior', name: 'water', value: 30,
 			icon: 'Take showers',
 			desc: `
 			`
 		}, {
-			cat: 'framework', name: 'electricity', value: 80,
-			icon: 'unplug your; electonic devices; when you are; not using; them',
+			cat: 'Behavior', name: 'electricity', value: 80,
+			icon: 'Unplug your; electonic devices; when you are; not using; them',
 			desc: `
 			`
 		}, {
-			cat: 'library', name: 'commute', value: 70,
+			cat: 'Travel', name: 'commute', value: 70,
 			icon: 'Take public ;transit when ;you can',
 			desc: `
 			`
 		},
     {
-			cat: 'tooling', name: 'electricity', value: 80,
+			cat: 'Travel', name: 'electricity', value: 80,
 			icon: 'offset ;your emissions; if you have to fly',
 			desc: `
 			`
 		},
 
     {
-      cat: 'library', name: 'energy', value: 70,
+      cat: 'Behavior', name: 'energy', value: 70,
       icon: 'Use renewable; energy at home; and at work',
       desc: `
       `
     },
     {
-      cat: 'tooling', name: 'food', value: 70,
+      cat: 'Shopping', name: 'food', value: 70,
       icon: 'Don not ;waste the food ;you buy',
       desc: `
       `
     },
     {
-      cat: 'framework', name: 'electricity', value: 80,
+      cat: 'Behavior', name: 'electricity', value: 80,
       icon: 'Switch off ; the light ; when leaving ; a room',
       desc: `
       `
     },
     {
-      cat: 'library', name: 'electricity', value: 90,
+      cat: 'Behavior', name: 'electricity', value: 90,
       icon: 'Switch off your ; computer and ; screen when ; leaving the ; office',
       desc: `
       `
     },
     {
-      cat: 'tooling', name: 'food', value: 50,
+      cat: 'Shopping', name: 'food', value: 50,
       icon: 'Eat less ; processed ; food',
       desc: `
       `
     },
     {
-      cat: 'library', name: 'waste', value: 50,
+      cat: 'Shopping', name: 'waste', value: 50,
       icon: 'Try to go; "no waste"',
       desc: `
       `
     },
     {
-			cat: 'framework', name: 'water', value: 50,
+			cat: 'Behavior', name: 'water', value: 50,
 			icon: 'close the tap ; when not using;water',
 			desc: `
 			`
 		}, {
-			cat: 'library', name: 'water', value: 100,
+			cat: 'Behavior', name: 'water', value: 100,
 			icon: 'Hang dry ; when you can ; instead of using ; your dryer',
 			desc: `
 			`
 		},
     {
-			cat: 'tooling', name: 'electricity', value: 60,
+			cat: 'Behavior', name: 'electricity', value: 60,
 			icon: 'Be mindful ; about your ;heat and A/C ; consumption',
 			desc: `
 			`
 		}, {
-			cat: 'library', name: 'Change the world', value: 70,
+			cat: 'Behavior', name: 'Change the world', value: 70,
 			icon: 'Speak out ; about global ; warming',
 			desc: `
 
 			`
 		}, {
-			cat: 'framework', name: 'commute', value: 60,
+			cat: 'Travel', name: 'commute', value: 60,
 			icon: 'Car pool ; as much as ; you can',
 			desc: `
 			`
 		}, {
-			cat: 'tooling', name: 'Shop', value: 80,
+			cat: 'Shopping', name: 'Shop', value: 80,
 			icon: 'Shop locally',
 			desc: `
 			`
 		}, {
-			cat: 'library', name: 'workout', value: 60,
+			cat: 'Behavior', name: 'workout', value: 60,
 			icon: 'Take the stairs ; instead of the ; elevator',
 			desc: `
 			`
 		},
     {
-      cat: 'tooling', name: 'Education', value: 60,
+      cat: 'Behavior', name: 'Education', value: 60,
       icon: 'Educate ; your ; children',
       desc: `
       `
     },
     {
-      cat: 'framework', name: 'Education', value: 80,
+      cat: 'Behavior', name: 'Education', value: 80,
       icon: 'Change to ; energy-efficient ; light bulbs',
       desc: `
       `
     },
     {
-			cat: 'library', name: 'paper', value: 50,
+			cat: 'Behavior', name: 'paper', value: 50,
 			icon: 'Refuse ; paper ; ads',
 			desc: `
 			`

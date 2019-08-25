@@ -1,0 +1,248 @@
+<?php include "header.php" ?>
+
+<div class="governments-background">
+
+
+<section class="container container-quiz">
+
+
+<h1>Climate breakdown quiz</h1>
+
+
+
+	<div class="container text-center  quiz-header">
+
+		<ul id="quiz" class="list-group">
+      <p class="quiz-explaination-para">It's now time to test yourself on how your daily activities impact climate change ! <br>
+      Please click on each button that reflect the most what you think without overthinking it.</p>
+
+		</ul>
+	</div>
+
+<a href="#" id="start" class="start-button">Let's Begin</a>
+<br/>
+
+<div class="well jumbotron">
+  <h3 id="question"></h3>
+  <br/><br/>
+  <form id="form">
+
+  </form>
+  <br/>
+  <a href="#" id="next" class="button">Next</a><br/>
+  <div id="progressbar" class="progress-bar progress-bar-striped"></div>
+</div>
+<div id="result"></div>
+<img class="quiz-img" src="img/pexels-photo-414837.jpeg" alt="wind power picture">
+</section>
+<?php include "footer.php" ?>
+<script type="text/javascript">
+
+function QuizQuestion(question, choices, correctAnswer){
+  this.question = question;
+  this.choices = choices;
+  this.correctAnswer = correctAnswer;
+}
+
+var allQuestions = [
+  new QuizQuestion("How conerned do you feel about global warming?",["Very concerned", "Pretty concerned", "Not really concerned", "Not concerned at all"],0),
+  new QuizQuestion("How do you commute to school/work?",["I walk or bike there", "I carpool or use public transports", "I drive there"],0),
+  new QuizQuestion("Do you practice 0 waste?",[ "Nope", "Here and there, I reuse glass jars", "I try to limit it and use reusable cloths", "I totally master it"],3),
+  new QuizQuestion(" How do you shop for your groceries?",["I like junk food like chips and soda", "I enjoy to have a huge variety of products", "I shop seasonal food", "I tend to shop locally, seasonal and organic as much as possible"],3),
+  new QuizQuestion("What is your typical behaviour during exterme temperatures?",["Heat and AC all the way, cannot live without it", "I try to survive but often rely on heat or AC","I dress accordingly and survive" ],2),
+
+  new QuizQuestion("What about your cleaning products?",["I need strong one to avoid scrubbing", "I get random ones from the supermarket", "I get green or eco-friendly ones","I make my ones"],3),
+  new QuizQuestion("How often do you eat meat? ",["Every day, multiple time a day", "3-5 times a week", "Once or twice a week","I am vegetarian/vegan"],0),
+  new QuizQuestion("What's your typical behavious regarding lighting?",["I don't mind when it's a little dark in the morning and at night", "I like artificial light but I use eco-friendly bulbs", "I need good lighting at all time"],2),
+
+  new QuizQuestion("How do you clean yourself?",["I use lukewarm water and do quick showers", "I like my long warm whower at least twice a day", "I enjoy long baths"],2),
+  new QuizQuestion("Where do you keep your notes, meetings and reminders?",["On my phone or laptop", "On multiple sticky notes", "I keep them in a notebook ", ],0),
+
+];
+
+var currentquestion = 0;
+var correctAnswers = 0;
+
+function setupOptions() {
+  $('#question').html(parseInt(currentquestion) + 1 + ". " + allQuestions[currentquestion].question);
+  var options = allQuestions[currentquestion].choices;
+  var formHtml = '';
+  for (var i = 0; i < options.length; i++) {
+    formHtml += '<div><input type="radio" name="option" value="' + i + '" class="options"><label for="option' + i + '">' + options[i] + '</label></div><br/>';
+  }
+  $('#form').html(formHtml);
+  $(".options:eq(0)").prop('checked', true);
+}
+
+function checkAns() {
+  if ($("input[name=option]:checked").val() == allQuestions[currentquestion].correctAnswer) {
+    correctAnswers++;
+  }
+}
+
+$(document).ready(function(){
+
+  var $jumbotron = $(".jumbotron");
+  var $start = $("#start");
+  var $progressbar = $("#progressbar");
+  var $next = $("#next");
+  var $result = $("#result");
+
+	$jumbotron.hide();
+	$start.click(function() {
+	    $jumbotron.fadeIn();
+	    $(this).hide();
+  	});
+
+	$(function() {
+		$progressbar.progressbar({
+			max: allQuestions.length-1,
+			value: 0
+		});
+	});
+
+	setupOptions();
+
+	$next.click(function(){
+			event.preventDefault();
+			checkAns();
+			currentquestion++;
+			$(function() {
+    			$progressbar.progressbar({
+      				value: currentquestion
+    			});
+  			});
+			if(currentquestion<allQuestions.length){
+				setupOptions();
+				if(currentquestion==allQuestions.length-1){
+					$next.html("Submit");
+					$next.click(function(){
+						$jumbotron.hide();
+            if(correctAnswers == 4){
+            console.log("hello");
+            $result.html("You are doing great! You know everything about climate change, global warming and the current breakdown and you do everything you can think of to reverse this.Congratulations and keep going.");
+      }
+
+						//$result.html("You correctly answered " + correctAnswers + " out of " + currentquestion + " questions! ").hide();
+
+						$result.fadeIn(1500);
+					});
+
+				}
+
+			};
+
+
+
+	});
+
+});
+
+
+</script>
+
+<style media="screen">
+
+
+
+.container-quiz{
+  padding-top: 5%;
+}
+
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+  display:block;
+}
+
+nav ul {
+  list-style:none;
+}
+
+blockquote, q {
+  quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content:'';
+  content:none;
+}
+
+
+.ui-widget-header {
+  background-image: none !important;
+  background-color: #f4decb !important;
+}
+
+label{
+display: inline;
+}
+
+h3, #next {
+text-align: center;
+display: inline-block;
+border-radius: 10%;
+}
+
+#result {
+font-family: 'Press Start 2P', cursive !important;
+font-weight: bold;
+font-size: 1.5em;
+color: #0250a1;
+text-decoration: none;
+}
+
+input[name="option"] {
+float:left;
+
+}
+
+
+
+
+#progressbar {
+float: none;
+margin: auto;
+margin-top: 20px;
+margin-left: 2%;
+width: 50%;
+}
+
+#container {
+text-align: center;
+}
+
+input, select {
+  vertical-align:middle;
+}
+
+.button {
+  display: inline-block;
+  padding: 1em;
+  background-color: #79BD9A;
+  text-decoration: none !important;
+  color: white !important;
+}
+body{
+text-align: center;
+}
+
+.progress-bar {
+float: left;
+width: 0;
+/*height: 100%;*/
+font-size: 12px;
+line-height: 20px;
+color: #fff;
+text-align: center;
+background-color: #337ab7;
+-webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+        box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+-webkit-transition: width .6s ease;
+     -o-transition: width .6s ease;
+        transition: width .6s ease;
+}
+
+
+</style>

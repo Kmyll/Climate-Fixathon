@@ -11,12 +11,12 @@
 
   <!-- jQuery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-  <!-- D3.JS -->
-  <script data-require="d3@4.0.0" data-semver="4.0.0" src="https://d3js.org/d3.v4.js"></script>
-
   <!-- Font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <!-- D3.js -->
+<script src="js/d3-legend.min.js" type="text/javascript"></script>
+<script src="js/d3.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.13.0/d3-legend.js"></script>
 
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bitter|Coustard|Fredericka+the+Great|Gochi+Hand|Grand+Hotel|Itim|Merriweather|Nanum+Pen+Script|Nunito|Raleway|Scheherazade&display=swap" rel="stylesheet">
@@ -29,15 +29,37 @@
 </head>
 <body>
   <header>
+
+
+
     <nav class="header-nav">
+      <div class="toggle"><i class="fas fa-hamburger menu"></i></div>
       <ul>
         <li><a href="index.php"><i class="fas fa-home home-icon" style="color: white;"></i></a></li>
-        <li><a href="index.php#world">The world's actions</a></li>
-        <li><a href="governments.php">Governments timeline</a></li>
-        <li><a href="causes-and-risks.php">Causes and risks</a></li>
-        <li><a href="quiz.php">Are you there yet?</a></li>
+        <a class="map-header" href="index.php#world"><li class="map-header">Worldwide</li></a>
+        <li><a href="governments.php">Governments</a></li>
+        <li><a href="causes-and-risks.php">Causes</a></li>
+        <li><a href="quiz.php">Quiz</a></li>
       </ul>
     </nav>
   </header>
-  <body>
-<a href="#"></a>
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+  $('.menu').click(function(){
+    console.log("test");
+    $('.header-nav ul').toggle({'height':'slow'});
+  })
+})
+
+</script>

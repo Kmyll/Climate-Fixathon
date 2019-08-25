@@ -1,7 +1,7 @@
 <?php include "header.php" ?>
 <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
 
-<section class="container">
+<section class="container causesRisk">
 
 <h1>Causes and risks of climate breakdown</h1>
 

@@ -7,17 +7,10 @@
 
 
 <h1 style="padding-top: 7%;">Climate breakdown quiz</h1>
-
-
-
-	<div class="container text-center  quiz-header">
-
-		<ul id="quiz" class="list-group">
+<img src="img/pexels-photo-414837.jpeg" alt="wind power picture">
       <p class="quiz-explaination-para">It's now time to test yourself on how your daily activities impact climate change ! <br>
       Please click on each button that reflect the most what you think without overthinking it.</p>
-      
-		</ul>
-	</div>
+
 
 
 	<div class="container text-center results hide">
@@ -84,11 +77,7 @@ var prompts = [
 	weight: 1,
 	class: 'group8'
 },
-{
-	prompt: 'I enjoy to reuse things (glass jars, containers) whever possible',
-	weight: 1,
-	class: 'group9'
-},
+
 {
 	prompt: 'I pay attention to using eco-friendly cleaning products',
 	weight: 1,
