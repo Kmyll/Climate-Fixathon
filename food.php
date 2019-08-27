@@ -12,10 +12,10 @@
   <ul>
     <div data-aos="fade-right">
     <h3><i class="fas fa-drumstick-bite"></i> Reduce meat consumption</h3> <br>
-    <img class="eggs" src="img/food/alison-marras-vZB-q_0_xQE-unsplash.jpg" alt="">
+    <img class="eggs" src="img/food/alison-marras-vZB-q_0_xQE-unsplash.jpg" alt="box of eggs">
     <li>Meat is very controverted since it needs water. According to foodtank, to produce one beef (approx. 540 kg or 1200 pounds) 2 158 800 gallons of water are necessary (over 8 171 946 liters).
 
-       For pork (295 kg or 650 pounds), 374 400 gallons of water (1 417 258 liters) is required. To compare, soybeans use 216 gallons (817 liters) and corn 108 gallons (408 liters) to produce. You can compare different products <a href="https://waterfootprint.org/en/resources/interactive-tools/product-gallery/">here</a>. <br><br>
+       For pork (295 kg or 650 pounds), 374 400 gallons of water (1 417 258 liters) is required. To compare, soybeans use 216 gallons (817 liters) and corn 108 gallons (408 liters) to produce. You can compare different products <a target="_blank" href="https://waterfootprint.org/en/resources/interactive-tools/product-gallery/">here</a>. <br><br>
 
       <li>  In addition, as seen in the <a href="causes-and-risks.php">causes and risks of climate breakdown section</a>, animal husbandry, and especially cows, reject methane (through burps and gases), which are harmful for the greenhouse effect.</li></li> <br>
       <li>Moreover, animals need food, which could be saved to feed humans. They are also using land that could be used to harvest vegetables and legumes for humans. the PETA NGO (People for the Ethical Treatment of Animals) proved that "It takes about 13 pounds of grain to produce a single pound of meat. All that grain would go a long way toward feeding the hundreds of millions of people—many of them children—who don’t have enough to eat."</li><br>
@@ -27,7 +27,7 @@
     <ul>
             <div data-aos="fade-left">
       <h3><i class="fas fa-blender"></i> Avoid Dairy products</h2><br>
-        <img class="dairy" src="img/food/christina-branco-7P-wc2Z2Ujs-unsplash.jpg" alt="">
+        <img class="dairy" src="img/food/christina-branco-7P-wc2Z2Ujs-unsplash.jpg" alt="cookies and milk">
         <li>Creams and cheese are derivated of milk. Milk, as well as meat is made with the hormones and antibiotics given to cows, which can result in the same health issues. </li> <br>
         <li>Moreover, milk is made by cows for their babies. By being the only living animals drinking someone else's milk, we separate a baby from his mom and we are drinking a beverage that is supposed to make us triple our original weight.</li>
               </div>
@@ -43,7 +43,7 @@
 
 <h2>Buy quality food</h2>
 
-      <img class="veggies" src="img/food/johnny-mcclung-0aC-3Gt7jF4-unsplash.jpg" alt="">
+      <img class="veggies" src="img/food/johnny-mcclung-0aC-3Gt7jF4-unsplash.jpg" alt="veggies">
       <ul>
           <div data-aos="fade-right">
         <h3><i class="fas fa-shopping-basket"></i> Shop locally and from season</h3> <br>
@@ -63,7 +63,7 @@
       <ul>
           <div data-aos="fade-left">
         <h3><i class="fas fa-hamburger"></i> Avoid any processed food</h3><br>
-        <img class="organic" src="img/food/neonbrand-sEwtU-qy06c-unsplash.jpg" alt="">
+        <img class="organic" src="img/food/neonbrand-sEwtU-qy06c-unsplash.jpg" alt="organic market">
         <li>There's a common saying "if it doesn't look like something you know, do not eat it". Processed food is not good for your health, nor for the environment.</li><br>
         <li>For your health first, because it contains toxins and non-natural substances such as "dyes" or "preservatives", too much saturated fat, or salt, that is harmful to your health in the long run since it can cause obesity, type 2 diabetes, cancers, and cardiovascular diseases. </li><br>
         <li>Then for the environment, because it is produced in factories that contribute to the greenhouse effect by engendering the global footprint.</li><br>
@@ -76,7 +76,7 @@
 
         <h3><i class="fas fa-tint"></i> Use water consciously</h3><br>
         <div data-aos="fade-right">
-          <img class="water-map" src="img/food/1052x615_cmsv2_6d0d2626-cd3b-5748-9d21-20ecb69dc01a-4077236 (1).jpg" alt="">
+          <img class="water-map" src="img/food/1052x615_cmsv2_6d0d2626-cd3b-5748-9d21-20ecb69dc01a-4077236 (1).jpg" alt="Countries that face high water stress">
 
         <li>And last but Unfortunately not least, water consumption is not endless, and some countries in 2019 are already in water deficit and at high risk to have no water getting out of their tap.</li><br>
         <li>Therefore, some countries, including Qatar, Israel, Lebanon, Iran, Jordan, Lybia, Koweit, Saudi Arabia, The Eritrea, the emirates, San Marin, Bahrein, Pakistan, Turkmenistan, Oman, Botswana and India are now living under the scarcity threshold, because the water resource is used at 80% for farming, factories, and cities purposes.</li><br>
@@ -86,12 +86,12 @@
       </ul><br>
       <div data-aos="flip-left">
       <center>
-      <img class="water" src="img/food/luis-tosta-SVeCm5KF_ho-unsplash.jpg" alt=""></center></div>
+      <img class="water" src="img/food/luis-tosta-SVeCm5KF_ho-unsplash.jpg" alt="water tap"></center></div>
 
 <section class="bottom-cta">
 <button class="top" type="button" name="button"><a href="#top">Go back to top</a></button>
 <button class="cta" type="button" name="button"><a href="lifestyle.php">See how you can improve your lifestyle</a></button>
 
 </section>
-
+</div>
       <?php include "footer.php" ?>

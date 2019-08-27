@@ -19,7 +19,7 @@
 
     <li><div>Electricity: </div><br>you have in your office the opportunity to choose to switch on and off the light when you are working and when leaving the office. You can also reduce the heater and AC to a minimum by dressing up accordingly with the weather. You can switch your computer to power saving option and switch off your computer/laptop, screen(s) and printer while leaving the office rather than putting into sleep.</li><br>
     <img class="employee-picture" src="img/companies/coffee-cup-laptop-265070.jpg" alt="mug and computer image">
-    <li><div>Save Co2 while surfing the Internet: </div><br>Rather than using Google, you can switch to <a href="https://www.ecosia.org/">Ecosia Search engine</a> that contributes to the CO2 reduction by donating 80% of its benefits to NGO who plants trees.</li><br>
+    <li><div>Save Co2 while surfing the Internet: </div><br>Rather than using Google, you can switch to <a target="_blank" href="https://www.ecosia.org/">Ecosia Search engine</a> that contributes to the CO2 reduction by donating 80% of its benefits to NGO who plants trees.</li><br>
     <li><div>Paper reduction: </div><br>you can decrease your paper consumption by printing <b>only necessary</b> documents that cannot be seen on your screen, using both sides. You can also enter your meeting on your outlook calendar, on writing notes on a word spreadsheet instead of paper or using recycled paper, which would contribute to reducing deforestation and therefore CO2.</li><br>
     <li><div>Commute: </div><br>See if, instead of taking your car you can either, walk or bike to work (to get some workout done for the day), use public transports (you will have more time to do something else like read for example) carpool with a colleague (you can learn to know them better outside of work). </li><br>
     <li><div>Bring your mug: </div><br>Drinking is so important, but reducing plastic mug is as well. Plus, it is healthier to drink in a mug rather than a plastic cup, especially if you drink hot beverages. Think of how many plastic cups you can save a year !</li><br>
@@ -31,7 +31,7 @@
 
   <ul class='employers-actions'>
 
-    <img class="carbon-foot" src="img/companies/reducing-co2-1.png" alt="carbon footpring certification">
+    <img class="carbon-foot" src="img/companies/reducing-co2-1.png" alt="carbon footprint certification">
     <li><div>Measure your carbon footprint: </div><br> To address changes, you must know what could be better in your business daily activity, from the reception of goods and services from suppliers to the delivery and feedback from customers. To do so, you can either <a href="https://www.sustainablebusinesstoolkit.com/how-to-measure-a-carbon-footprint/"  target="_blank">do it on your own</a> or you can call on some new companies are specialized into this field and you could own a certification! <a href="https://www.carbontrust.com/home/" target="_blank">Please click here to find out more about it</a>.</li><br>
     <li><div>Run a deep business analysis:  </div><br>Also called a SWOT, (for Strengths, Weaknesses, Opportunities, and Treats), it allows you to visualize your business from both internally and externally, from an employee, supplier, shareholder, and customer perspective. It will put in perspective the challenges and opportunities for your activity regarding climate changes.</li><br>
     <li><div>Audit your supply-chain:  </div><br>To evaluate the impact of supply chain in terms of cost, speed and quality and address these risks to implement changes to create positive value and increase their competitivity.</li><br>
@@ -39,7 +39,7 @@
 
     <div class="google-idea-img">
       <a href="https://www.cnbc.com/2019/03/20/these-public-companies-do-the-most-to-help-prevent-climate-change.html" target="_blank">
-        <img class="Google-roof" src="img/companies/105796794-155266.jpeg" alt="" legend="solar panel on google headquarters. Steve Proehl, COrbis Documentary :getty images"></a>
+        <img class="Google-roof" src="img/companies/105796794-155266.jpeg" alt="solar panel on Google's Headquarters" legend="Solar panels on Google's Headquarters. Steve Proehl, COrbis Documentary :getty images"></a>
         <p><b>Solar panels on Google headquarters in California </b><br>
           <em>Steve Proehl | Corbis Documentary | Getty Image</em></p>
           <hr>

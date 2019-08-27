@@ -10,13 +10,13 @@
 <div data-aos="fade-left">
 <img class="causesPic1" src="img/riskspictures/air-pollution-atmosphere-carbon-929382.jpg" alt="boat and air pollution"></div>
 
-<p>The origins of "climate change" is linked to the second industrial revolution, starting at around 1880. At the same time, scientists discover that CO2 is linked to Global Warming: the world <b>"greenhouse effect"</b> was born. <br><br>
+<p>The origins of "climate change" is linked to the second industrial revolution, starting at around 1880. At the same time, scientists discover that CO2 is linked to Global warming: the world <b>"greenhouse effect"</b> was born. <br><br>
 
 During this second revolution, World power countries like Europle, the USA and Japan developped industries based on oil(petroleum), chemistry, mecanic and electricity. This revolution has been responsible of innovations that are in our everyday lives, such as <b>combustion engine, communication appliances and transports</b>. This revolution also marks the beginning of globalization, with monetary, goods and migrations.</p>
 
 
 <div class="quote">
-  <p><i class="fas fa-angle-double-left"></i> Instead of “climate change” the preferred terms are “climate emergency, crisis or breakdown” and “global heating” is favored over “global warming,” although the original terms are not banned… <i class="fas fa-angle-double-right"></i></p>
+  <p><i class="fas fa-angle-double-left"></i> Instead of “climate change” the preferred terms are “climate emergency, crisis or breakdown” and “global heating” is favored over “Global warming,” although the original terms are not banned… <i class="fas fa-angle-double-right"></i></p>
   <p>- Katarine Viner - <em>Guardian News & Media</em></p>
 </div>
 
@@ -24,7 +24,7 @@ During this second revolution, World power countries like Europle, the USA and J
 
 <h2><i class="fas fa-globe-africa"></i> Main causes of climate breakdown</h2>
 <div data-aos="fade-right">
-<img class="causesPic1 causesPic2" src="img/riskspictures/bird-s-eye-view-deforestation-high-1268076.jpg" alt=""></div>
+<img class="causesPic1 causesPic2" src="img/riskspictures/bird-s-eye-view-deforestation-high-1268076.jpg" alt="deforestation"></div>
 <p>Our planet is a living organism so it naturally variates in temperatures and other natural occurences. The causes are therefore multiples and somewhat natural, including volcanism activity, orbital variations and so on. <br><br>
 
   <b>However, human contribution and activities has largly increased its downfall, by:</b></p> <br><br>
@@ -40,7 +40,7 @@ During this second revolution, World power countries like Europle, the USA and J
   <li><span class="colorBlue">Deforestation and land use:</span>  responsible for 9% of the total CO2 emissions, it includes deforestation (for wood use or to convert the land into farming exploitation). Trees acts like "carbon sinks", so by reducing their quantities, the CO2 increase.</li><br>
   <div data-aos="fade-left">
 <img class="causesPic1 causesPic3" src="img/riskspictures/animal-bull-cattle-457447.jpg" alt="Cow"></div>
-  <li><span class="colorBlue">Ozone depletion:</span>  The ozone layer is a protection from our planet against UV rays and is composed of 3 oxygens atoms. However, human activities has  created an "ozone hole" (a region with depleted ozone) by man-made chemicals (CFCs and HCFCs), used in refregirators and Air conditioners, aerosols sprays, household cleaning products, home fournishing rigid and semi-rigid foams to isolate, packagings, plastics, eggs packaging, cups, fast food cartons, fire estinguishers, and textiles and lectronics industries. Ozone depletion is very dangerous and alarming because if we are not protected by this "natural protection", we have a highest risk of sunburns that have been linked with skin cancers, like in New Zealand and <a href="https://m.medicalxpress.com/news/2010-12-australians-world-highest-skin-cancer.html">Australia</a>.</li><br>
+  <li><span class="colorBlue">Ozone depletion:</span>  The ozone layer is a protection from our planet against UV rays and is composed of 3 oxygens atoms. However, human activities has  created an "ozone hole" (a region with depleted ozone) by man-made chemicals (CFCs and HCFCs), used in refregirators and Air conditioners, aerosols sprays, household cleaning products, home fournishing rigid and semi-rigid foams to isolate, packagings, plastics, eggs packaging, cups, fast food cartons, fire estinguishers, and textiles and lectronics industries. Ozone depletion is very dangerous and alarming because if we are not protected by this "natural protection", we have a highest risk of sunburns that have been linked with skin cancers, like in New Zealand and <a target="_blank" href="https://m.medicalxpress.com/news/2010-12-australians-world-highest-skin-cancer.html">Australia</a>.</li><br>
   <li><span class="colorBlue">Methane emissions:</span> is, according to National Geographic, about 28 times more powerful than carbon dioxide over a 100 years scale and is therefore another greenhouse gas. However, researchers found that Methane stays in the atmosphere for around 12 years, contrary to ver a hunder years for carbon dioxide. Methane comes mainly from 2 sources:
     <ul class="second-dropdown">
 

@@ -2,6 +2,9 @@
 
 <footer class="footer">
  <article class="articles">
+   <article class="site-map">
+
+
     <h4>We talk about</h4>
     <ul>
       <a href="causes-and-risks.php"><li>Causes and risks of Global warming</li></a>
@@ -24,14 +27,12 @@
     <h4>Legal</h4>
     <br>
   <ul>
-    <a href="#">    <li>About</li></a>
-    <a href="#">    <li>Terms of use</li></a>
-<a href="#">    <li>Privacy policy</li></a>
-
-
+    <a href="about.php">    <li>About</li></a>
+    <a href="terms-and-conditions.php">    <li>Terms and conditions</li></a>
+    <a href="references.php">  <li>References</li></a>
   </ul>
   </article>
-
+   </article>
 </footer>
   </body>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -41,6 +41,13 @@
   float: right;
 }
 
+  @media only screen and (max-width: 800px) {
+svg{
+  width: 800px;
+}
+
+}
+
 </style>
 
 <div id="tooltip-container"></div>
@@ -55,7 +62,7 @@ d3.csv("population.csv", function(err, data) {
 
   var config = {"data0":"Country (or dependent territory)","data1":"Population",
               "label0":"label 0","label1":"label 1","color0":"#99ccff","color1":"#0050A1",
-              "width":960,"height":960}
+              "width":950,"height":950}
 
   var width = config.width,
       height = config.height;

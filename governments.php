@@ -122,7 +122,7 @@
 </ul><br>
 <p>Another Earth Summit was again held in Rio in 2012 to secure renevable actions taken for sustainable development and adress new challenges regarding evolutions and nowadays habits, lifestyles and technologies.</p><br><br>
 
-<img class="timeline-img" src="img/timeline/2015_1223ml_3.jpg" alt="">
+<img class="timeline-img" src="img/timeline/2015_1223ml_3.jpg" alt="The Rio Earth Summit">
 </div>
 </div>
 </div>
@@ -209,7 +209,7 @@
   <p><br>
   This conference addresses a practical solution to limit climate change effects as well as solutions for different actors including agriculture and agri-food, water, energy, public health, and tourism. Its members also agreed to provide better climate monitoring and information worldwide.
   </p>
-<img class="timeline-img" src="img/timeline/new-climate-statement-infographic_2018_indicators.png" alt="">
+<img class="timeline-img" src="img/timeline/new-climate-statement-infographic_2018_indicators.png" alt="Third World Climate Conference">
 <br><br>
 <h2>2009 - Copehagen Conference</h2>
 <p> <br>The conference (COP 15) was held in Denmark and included the 15th conference of the UNFCCC as well as the 5th meeting of the parties. A document was established mainly by the USA, China, India, South Africa and Brazil and its <b>objective was to keep any temperature increase by under 2°C above pre-industrial levels, without any mandatory regulations to reduce CO2 emissions</b>.
@@ -263,7 +263,7 @@
 <div class="timeline-content">
   <h2>2015 - The Paris Conference (COP 21)</h2>
   <p><br>
-    The main goal of this conference is to find an agreement to reduce Global Warming under 2 degrees Celsius (like the COP 15 with a mandatory action plan). However, this agreement must :<br><br></p>
+    The main goal of this conference is to find an agreement to reduce Global warming under 2 degrees Celsius (like the COP 15 with a mandatory action plan). However, this agreement must :<br><br></p>
     <ul>
       <li>Be applicable to all the countries</li>
       <li>Applicable starting in 2020</li>
@@ -301,7 +301,7 @@
       <li>Prepared big lines regarding the national climate action plan in 2020.</li>
     </ul>
   <br>
-<img class="timeline-img" src="img/timeline/global-summit.jpg" alt="">
+<img class="timeline-img" src="img/timeline/global-summit.jpg" alt="Global Climate Action">
 </div>
 </div>
 </div>
@@ -323,16 +323,29 @@
 
 </div>
 <div class="timeline-content">
-  <h2>2019 - GIEC Climat summet</h2>
+  <h2>2019 - GIEC Climat Summit</h2>
   <p><br>
-	The GIEC experts have warned in 2018 that some concrete actions must be taken to limit a rise in temperatures below 1.5 degrees. They expect an increase of 3 degrees by the end of the century, which is more than what governments agreed in Paris during the COP 21 (to keep temperature rise below 2 degrees).
-  </p>
+    The GIEC experts have warned in 2018 that some concrete actions must be taken to limit a rise in temperatures below 1.5 degrees. They expect an increase of 3 degrees by the end of the century, which is more than what governments agreed in Paris during the COP 21 (to keep temperature rise below 2 degrees). This meeting held in Geneva focused on soils and its effects caused by Global warming, deforestation and agriculture. According to their findings and reports, 1/4 of the emerged lands have been deteriorated by humans use. Moreover, lands and cities are warming up twice as much as the rest of the planet. Finally, Global warming is slowing down global agricultural production.<br>  </p>
+  <img class="timeline-img" src="img/timeline/land_report.jpg" alt="Land and soils">
+
+</div>
+<div class="timeline-content">
+  <h2>2019 - Biarritz's G7</h2>
+  <p><br>
+    The G7 occurred in Biarritz at the same time as the news regarding the fires in the Amazon's forest. therefore, the debate focused on Global warming and climate change. They agreed on donating $20 million to help Brazil to fight the fires in Amazonia, as well as reached a long-term agreement to protect and reforest the land.<br></p>
+  <img class="timeline-img" src="img/timeline/g72019.jpg" alt="G7 summit in Biarritz">
+
 </div>
 </div>
 </div>
 
 </div>
 </div>
+<section class="bottom-cta">
+
+<button class="top" type="button" name="button"><a href="#top">Go back to top</a></button>
+<br>
+</section>
 
 </div>
 

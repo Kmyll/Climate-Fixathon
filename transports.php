@@ -48,7 +48,8 @@
 <button class="cta" type="button" name="button"><a href="lifestyle.php">See how you can improve your lifestyle</a></button>
 
 </section>
-
+</div>
+<?php include "footer.php" ?>
 
 
     <style>
@@ -143,6 +144,3 @@
 </script>
 
 <!-- HTML -->
-
-
-<?php include "footer.php" ?>

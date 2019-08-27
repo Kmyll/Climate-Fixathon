@@ -17,14 +17,14 @@
 
 
 <article class="lifestyle-quote">
-  <img class="quotemarks"src="img/quote2.svg" alt="">
+  <img class="quotemarks"src="img/quote2.svg" alt="quotemark">
 <p>
   In a world of more than seven billion people, each of us is a drop in the bucket. <br>
   <p>
   <b>But with enough drops, we can fill any bucket.</b><br><br>
 
   <em>David Suzuki</em></p>
-    <img class="quotemarks2"src="img/quote2.svg" alt="">
+    <img class="quotemarks2"src="img/quote2.svg" alt="quotemark">
 </article>
 	<svg width="100%" height="700" font-family="sans-serif" font-size="10" text-anchor="middle" margin: "margin: 0 auto 0 -30%;"></svg>
 
@@ -35,7 +35,7 @@
 <button class="top" type="button" name="button"><a href="#top">Go back to top</a></button>
 <button class="cta" type="button" name="button"><a href="transports.php">Changes you can make when commuting</a></button>
 </section>
-
+</div>
 	<script>
 		// Based loosely from this D3 bubble graph https://bl.ocks.org/mbostock/4063269
 		// And this Forced directed diagram https://bl.ocks.org/mbostock/4062045
@@ -507,73 +507,13 @@
 	</script>
 
 <style media="screen">
-* {
-  box-sizing: inherit;
-}
-h1 {
-  text-align: center;
-}
+
 svg {
   margin:auto;
   display:block;
   background-color: white!important;
 }
 
-.circle-overlay {
-  font-size: 16px;
-  border-radius: 50%;
-  position: absolute;
-  overflow: hidden;
-
-  /*it's buggy with the foreignObject background right now*/
-  /*background-color: rgba(255,255,255,0.5);*/
-}
-.circle-overlay__inner {
-  text-align: center;
-  width: 100%;
-  height: 100%;
-}
-
-.hidden {
-  display: none;
-}
-.node-icon--faded {
-  opacity: 0.5;
-}
-.legend-size circle {
-  fill: rgb(31, 119, 180);
-}
-
-.quotemarks{
-width: 100px;
-position: relative;
-z-index: -1;
-opacity: 0.2;
-float: left;
-clear: both;
-overflow: hidden;
-margin-top: -3%;
-
-}
-
-.quotemarks2{
-width: 100px;
-transform: rotate(-180deg);
-position: relative;
-z-index: -1;
-opacity: 0.2;
-float: right;
-clear: both;
-overflow: hidden;
-}
-.lifestyle-quote{
-margin-top: 5%;
-}
-.lifestyle-quote p{
-text-align: center;
-
-
-}
 </style>
 
 
