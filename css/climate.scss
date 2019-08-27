@@ -193,6 +193,14 @@ p, li{
     font-size: 30px;
   }
 }
+.chevron{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  margin-top: 25%;
+}
 
 /* COMMON DESIGN PAGES */
 
@@ -272,7 +280,25 @@ p, li{
     font-size: 2.5rem;
     font-family: 'Nanum Pen Script', cursive;
   }
+  h3{
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
+
+@keyframes slidein {
+from {
+  margin-top: 100%;
+  width: 100%;
+}
+
+to {
+  margin-bottom: 0%;
+  width: 100%;
+}
+}
+  }
+
 .line{
   height: 3px;
   width: 20%;

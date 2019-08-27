@@ -204,7 +204,7 @@ input, select {
   background-color: #86B3DF;
   text-decoration: none !important;
   color: white !important;
-	margin: 2%;
+
 }
 .button:hover{
 	  background-color: #6586A7;
