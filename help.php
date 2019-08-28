@@ -66,27 +66,4 @@ From the homepage, you can also scroll down again and see the map of the carbon 
 
 </section>
 </div>
-<?php include "header.php" ?>
-
-<style>
-/* HELP PAGE */
-
-.topbthHelp{
-    max-width: 30px;
-}
-.scrollPic{
-    max-width: 100px;
-    float: right;
-    margin-left: 1%;
-}
-.big-pic{
-    max-width: 600px;
-    display: block;
-    margin: 3% auto;
-    box-shadow: -webkit-box-shadow: 0px 0px 5px 0px rgba(145,145,145,1);
--moz-box-shadow: 0px 0px 5px 0px rgba(145,145,145,1);
-box-shadow: 0px 0px 5px 0px rgba(145,145,145,1);
-}
-
-
-</style>
+<?php include "footer.php" ?>
