@@ -12,7 +12,9 @@
 <div class="container lifestyle" id="top">
   <h1>Lifestyle</h1>
 
-<p>Our day to day activities can greatly influence our carbon emission and therefore contribute to the global carbon footprint. Here are some ideas you can implement to reduce your carbon emissions.</p>
+<p>Our day to day activities can greatly influence our carbon emission and therefore contribute to the global carbon footprint. Here are some ideas you can implement to reduce your carbon emissions.
+	<br>Please click on each bubble to see more.
+</p>
 
 
 
@@ -28,193 +30,263 @@
 </article>
 	<svg width="100%" height="700" font-family="sans-serif" font-size="10" text-anchor="middle" margin: "margin: 0 auto 0 -30%;"></svg>
 
-
-
-<section class="bottom-cta">
-<button class="cta" type="button" name="button"><a href="food.php">Changes you can make in your plate</a></button>
-<button class="top" type="button" name="button"><a href="#top">Go back to top</a></button>
-<button class="cta" type="button" name="button"><a href="transports.php">Changes you can make when commuting</a></button>
-</section>
 </div>
 	<script>
 		// Based loosely from this D3 bubble graph https://bl.ocks.org/mbostock/4063269
 		// And this Forced directed diagram https://bl.ocks.org/mbostock/4062045
 		let data = [{
-			cat: 'Shopping', name: 'organic', value: 40,
-			icon: 'Buy ;organic ;products',
+			cat: 'Shopping', name: 'Organic', value: 40,
+			icon: 'img/Lifestyle/organic.png',
 			desc: `
-
+       Buy organic products to  <br>
+       avoid indirectly participating  <br>
+       in the implementation of toxic  <br>
+       products in the soil.<br><br><br>
+      Plus, most organic products respect  <br>
+      seasons so it reduce  <br>
+       transport carbon footprint. <br>
 			`
 		}, {
 			cat: 'Shopping', name: 'Buy fair trade', value: 40,
-			icon: 'Buy ; fair ; trade',
+			icon: 'img/Lifestyle/fairtrade.png',
 			desc: `
-
+      Buy fairtrade products to eat  <br>
+      goods that respect both the  <br>
+      environment as well as producers <br>
+      from the other side of the world.
 			`
 		}, {
-			cat: 'Travel', name: 'drive', value: 70,
-			icon: 'Drive less; walk and; bike more; often',
+			cat: 'Travel', name: 'Drive', value: 70,
+			icon: 'img/Lifestyle/car.png',
 			desc: `
-
+      Drive less, walk and bike  <br>
+	  more often. <br> <br>
+      It's better for your health
+      and for the environment.
 			`
 		}, {
-			cat: 'Shopping', name: 'food', value: 50,
-			icon: 'Consume less; waste less',
+			cat: 'Shopping', name: 'Eat better', value: 50,
+			icon: 'img/Lifestyle/eatLess.svg',
 			desc: `
+      Eat better, consume less and <br>
+	  waste less <br><br>
+      Prioritize better products <br>
+      (organic, seasonal, better quality) <br>
+      rather than an aboundance of food <br>
+      poor in nutrients.
 			`
 		}, {
-			cat: 'Shopping', name: 'food', value: 40,
-			icon: 'Eat ;less ;meat',
+			cat: 'Shopping', name: 'Less meat', value: 40,
+			icon: 'img/Lifestyle/Vegetarian.svg.png',
 			desc: `
+      Eat less meat. <br>
+	  Animals need a lot <br>
+      of water, food and medicine <br>
+      to triple their weight in <br>
+      a minimal amount of time. <br><br>
+      Eating less meat contribute to <br>
+      saving their lives.
 				`
 		}, {
 			cat: 'Behavior', name: 'Litter', value: 40,
-			icon: 'Do not;litter',
+			icon: 'img/Lifestyle/litter.png',
 			desc: `
-
+      Do not litter <br><br>
+      Most of the litter is not <br>
+      biodegradable such as plastic <br>
+      and may be eaten by birds <br>
+      or animals that live in the <br>
+      ocean.
 			`
 		}, {
-			cat: 'Behavior', name: '', value: 50,
-			icon: 'recycle your; household waste',
+			cat: 'Behavior', name: 'Recycle', value: 50,
+			icon: 'img/Lifestyle/recycle.svg',
 			desc: `
+      Recycle your waste. <br>
+      Depending where you live in <br>
+      the world, you most likely <br>
+      already seen different colour <br>
+      of trash container. <br>
+      Differentiate paper, plastic, glass <br>
+      and non recyclable items from <br>
+      your home to reduce global waste.
 			`
 		}, {
-			cat: 'Behavior', name: 'energy', value: 30,
-			icon: 'Use energy ; wisely',
+			cat: 'Behavior', name: 'Energy', value: 30,
+			icon: 'img/Lifestyle/energy.png',
 			desc: `
-
+      Use energy wisely <br>
+      Energy production contributes <br>
+      to the global warming.<br><br>
+      Switch off the lights when leaving<br>
+      a room, unplug your devices when you <br>
+      are not using it or when it is charged, <br>
+      and don't overheat or overcool  <br>
+      your space. You can also invest <br>
+      in some energy saving bulbs.
 			`
 		}, {
-			cat: 'Behavior', name: 'water', value: 40,
-			icon: 'use water; responsively',
+			cat: 'Behavior', name: 'Water', value: 40,
+			icon: 'img/Lifestyle/water.svg',
 			desc: `
+      Use water responsively. <br>
+      Water is a exhaustible vital<br>
+	 source that must be shared by over <br>
+	 7 billions humans or earth (without <br>
+	  counting animals, nor agriculture that <br>
+	  need a lot of water). Therefore, avoid <br>
+	  taking hot long showers or baths, and <br>
+	  use your laundry and dishes <br> machines responsively.
 			`
 		},  {
-			cat: 'Behavior', name: 'paper', value: 50,
-			icon: 'Limit your ;paper ;consumption',
+			cat: 'Behavior', name: 'Paper', value: 50,
+		  icon: 'img/Lifestyle/paper.png',
 			desc: `
-
+      Limit your paper consumption <br>
+      paper contributes to the amazon <br>
+      deforestation since trees are used <br>
+      to make paper pate and therefore paper.
 			`
 		}, {
-			cat: 'Travel', name: 'commute', value: 40,
-			icon: 'Work from ; home',
+			cat: 'Travel', name: 'Work', value: 40,
+		   icon: 'img/Lifestyle/work.svg',
 			desc: `
-
+      Work from home when <br> possible 
+      if your job <br> allows  it. <br><br>
+      It saves you commuting time <br>
+      and contributes to reducing the <br>
+      global carbon footprint.
 			`
 		}, {
-			cat: 'Behavior', name: 'water', value: 30,
-			icon: 'Take showers',
+			cat: 'Behavior', name: 'Water', value: 30,
+		   icon: 'img/Lifestyle/shower.png',
 			desc: `
+      Favour small showers  <br>rather than 
+      baths, again  <br>in order to contributes  <br>
+       to a responsive water <br> consumption. <br>
 			`
 		}, {
-			cat: 'Behavior', name: 'electricity', value: 80,
-			icon: 'Unplug your; electonic devices; when you are; not using; them',
+			cat: 'Travel', name: 'Commute', value: 70,
+		   icon: 'img/Lifestyle/bus.svg',
 			desc: `
-			`
-		}, {
-			cat: 'Travel', name: 'commute', value: 70,
-			icon: 'Take public ;transit when ;you can',
-			desc: `
+      If you are travelling, <br> take public <br>
+      transit whenever <br> you can. It saves  <br>
+       money and it is better  <br> for the environment.
 			`
 		},
     {
-			cat: 'Travel', name: 'electricity', value: 80,
-			icon: 'offset ;your emissions; if you have to fly',
+			cat: 'Travel', name: 'Electricity', value: 80,
+		   icon: 'img/Lifestyle/offset.svg',
 			desc: `
+      Offset your Carbon emissions <br> if you have to fly <br><br><br><br>
+      It can be as easy as <br> contributing to planting <br>
+      trees and it is <br> good for the planet.
 			`
 		},
 
     {
-      cat: 'Behavior', name: 'energy', value: 70,
-      icon: 'Use renewable; energy at home; and at work',
+      cat: 'Behavior', name: 'Energy', value: 70,
+      icon: 'img/Lifestyle/renewable.png',
       desc: `
+      'Use renewable energy at <br>home and at work <br>
+      whenever possible. <br>It can be as easy as  <br>
+      using a fan instead of <br>the AC, or using  <br>
+      a lamp or a calculator<br> with a solar panel on it.
       `
     },
     {
-      cat: 'Shopping', name: 'food', value: 70,
-      icon: 'Don not ;waste the food ;you buy',
+      cat: 'Shopping', name: 'Food', value: 70,
+      icon: 'img/Lifestyle/waste.png',
       desc: `
+      Do not waste the food you <br> buy.
+      Buy less more often if <br> you have 
+      to, rather than <br>  wasting unconsumed 
+      goods.
       `
     },
     {
-      cat: 'Behavior', name: 'electricity', value: 80,
-      icon: 'Switch off ; the light ; when leaving ; a room',
+      cat: 'Behavior', name: 'Electricity', value: 90,
+      icon: 'img/Lifestyle/plug.png',
       desc: `
+      'Switch off your computer and <br>
+      screen when leaving the office.
       `
     },
     {
-      cat: 'Behavior', name: 'electricity', value: 90,
-      icon: 'Switch off your ; computer and ; screen when ; leaving the ; office',
+      cat: 'Shopping', name: 'Food', value: 50,
+      icon: 'img/Lifestyle/junk.png',
       desc: `
+      <br>
+      Eat less processed food
       `
     },
     {
-      cat: 'Shopping', name: 'food', value: 50,
-      icon: 'Eat less ; processed ; food',
+      cat: 'Shopping', name: '0 Waste', value: 50,
+      icon: 'img/Lifestyle/0waste.png',
       desc: `
+      Try to go "no waste", <br> by buying
+      from bulk and <br> avoiding packaging.
       `
     },
     {
-      cat: 'Shopping', name: 'waste', value: 50,
-      icon: 'Try to go; "no waste"',
-      desc: `
-      `
-    },
-    {
-			cat: 'Behavior', name: 'water', value: 50,
-			icon: 'close the tap ; when not using;water',
+			cat: 'Behavior', name: 'Water', value: 50,
+      icon: 'img/Lifestyle/tap.png',
 			desc: `
+      Close the tap when you <br> are not directly <br>
+      using water.
 			`
 		}, {
-			cat: 'Behavior', name: 'water', value: 100,
-			icon: 'Hang dry ; when you can ; instead of using ; your dryer',
+			cat: 'Behavior', name: 'Water', value: 100,
+      icon: 'img/Lifestyle/dryer.png',
 			desc: `
+      Hang dry whenever you can <br> instead of using 
+      your dryer <br> in order to save electricity.<br><br>
+      This works for your clothes <br> and for your hair
 			`
 		},
-    {
-			cat: 'Behavior', name: 'electricity', value: 60,
-			icon: 'Be mindful ; about your ;heat and A/C ; consumption',
+     {
+			cat: 'Behavior', name: 'Communicate', value: 70,
+      icon: 'img/Lifestyle/speak.png',
 			desc: `
+      Speak out about global <br> warming, inform your <br> peers.
 			`
 		}, {
-			cat: 'Behavior', name: 'Change the world', value: 70,
-			icon: 'Speak out ; about global ; warming',
+			cat: 'Travel', name: 'Commute', value: 60,
+      icon: 'img/Lifestyle/carpool.svg',
 			desc: `
-
-			`
-		}, {
-			cat: 'Travel', name: 'commute', value: 60,
-			icon: 'Car pool ; as much as ; you can',
-			desc: `
+      Car pool as much as you can.
 			`
 		}, {
 			cat: 'Shopping', name: 'Shop', value: 80,
-			icon: 'Shop locally',
+      icon: 'img/Lifestyle/shop.png',
 			desc: `
+      Shop locally. It will support <br>
+      local shops and reduce carbon <br>
+      footprint from transport.
 			`
 		}, {
-			cat: 'Behavior', name: 'workout', value: 60,
-			icon: 'Take the stairs ; instead of the ; elevator',
+			cat: 'Behavior', name: 'Workout', value: 60,
+      icon: 'img/Lifestyle/stairs.png',
 			desc: `
+      Take the stairs instead <br> of the elevator.
 			`
 		},
     {
       cat: 'Behavior', name: 'Education', value: 60,
-      icon: 'Educate ; your ; children',
+      icon: 'img/Lifestyle/kid.svg',
       desc: `
-      `
+      Educate your children. <br> By watching at you, <br>
+      they will mimic you. <br> Plus, it' is a <br>
+      good idea to let <br> them know how to protect <br>
+      the environment.`
     },
     {
-      cat: 'Behavior', name: 'Education', value: 80,
-      icon: 'Change to ; energy-efficient ; light bulbs',
-      desc: `
-      `
-    },
-    {
-			cat: 'Behavior', name: 'paper', value: 50,
-			icon: 'Refuse ; paper ; ads',
-			desc: `
-			`
+	  cat: 'Behavior', name: 'Paper', value: 50,
+      icon: 'img/Lifestyle/ads.svg',
+	  desc: `
+      Refuse paper ads. <br><br> Depending wherever you 
+      live, some <br> "no ads"  stickers may be available <br>
+      at your cityhall.`
 		}];
 
 	</script>
@@ -507,6 +579,12 @@
 	</script>
 
 <style media="screen">
+
+.circle-overlay__body{
+  text-align: center!important;
+  font-weight bold;
+  color: white;
+}
 
 svg {
   margin:auto;

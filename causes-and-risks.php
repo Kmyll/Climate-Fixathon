@@ -10,9 +10,9 @@
 <div data-aos="fade-left">
 <img class="causesPic1" src="img/riskspictures/air-pollution-atmosphere-carbon-929382.jpg" alt="boat and air pollution"></div>
 
-<p>The origins of "climate change" is linked to the second industrial revolution, starting at around 1880. At the same time, scientists discover that CO2 is linked to Global warming: the world <b>"greenhouse effect"</b> was born. <br><br>
+<p>The origins of "climate change" is linked to the second industrial revolution, starting at around 1880. At the same time, scientists discovered that CO2 is linked to Global warming: the world <b>"greenhouse effect"</b> was born. <br><br>
 
-During this second revolution, World power countries like Europle, the USA and Japan developped industries based on oil(petroleum), chemistry, mecanic and electricity. This revolution has been responsible of innovations that are in our everyday lives, such as <b>combustion engine, communication appliances and transports</b>. This revolution also marks the beginning of globalization, with monetary, goods and migrations.</p>
+During this second revolution, the World's "most powerful" countries like Europe, the USA and Japan developed industries based on oil(petroleum), chemistry, mechanic and electricity. This revolution has been responsible of innovations that are in our everyday lives, such as <b>combustion engine, communication appliances and transports</b>. This revolution also marks the beginning of globalization, especially monetary, goods importations, exportations and migrations.</p>
 
 
 <div class="quote">
@@ -29,23 +29,23 @@ During this second revolution, World power countries like Europle, the USA and J
 
   <b>However, human contribution and activities has largly increased its downfall, by:</b></p> <br><br>
 <ul>
-  <li><span class="colorBlue">Increasing the Earth's CO2 level :</span> (fossil fuel, aerosols, cement manufactures). CO2 is a greenhouse gas which has for consequences to increase the global temperature. According to <em>Le Quéré, C. et al. (2013). The global carbon budget 1959-2011</em>, 87% of CO2 emission are from fossil combustion, including charcoal, gas and oil. The remaining are from deforestation (9%) and industrial process such as cement manufacturing.  Fossil fuel are use for electricity, heating (41% of total fossil emissions), transports, and industries such as electricity power plan, cars, planes and factories.
+  <li><span class="colorBlue">Increasing the Earth's CO2 level:</span> (fossil fuel, aerosols, cement manufactures). CO2 is a greenhouse gas which has for consequences to increase the global temperature. According to <em>Le Quéré, C. et al. (2013) - The global carbon budget 1959-2011</em>, 87% of CO2 emission are from fossil combustion, including charcoal, gas and oil. The remaining are from deforestation (9%) and industrial process such as cement manufacturing.  Fossil fuel are use for electricity, heating (41% of total fossil emissions), transports, and industries such as electricity power plan, cars, planes and factories.
     <ul class="second-dropdown">
-        <li><span class="colorBrown">Electricity and Heat sectors: </span> Includes industry, housing and trade markets, especially chemical, iron, steel, cerment, aluminum and paper paste (to make paper) productions. <b>For housing, it includes lighting, eating, air conditioning and appliances (oven, dishwasher, laundry machine...)</b></li><br>
-        <li><span class="colorBrown">Transportation : </span> Transportation of goods and people use petrol (Oil, gas, diesel, kerosene). Over 20 years, transportation increased by 45%. The main transportation pollutions (45%) comes from t<b>rucks and cars</b>. Maritime navigation (using the most polluting oil) and aviation shares the remaining pollution, by respectively 14% and 11%.</li><br>
-        <li><span class="colorBrown">Industrial sector : </span> This sector is responsible for around 20% of global CO2 emissions, and is divided into 4 different industries, including Manufacturing (paper, food, oil and gas chemical goods and metal and mineral productions), Constructions, Mining, and Agriculture (farming).</li><br>
+        <li><span class="colorBrown">Electricity and heat sectors: </span> Includes industry, housing and trade markets, especially chemical, iron, steel, cerment, aluminum and paper paste (to make paper) productions. <b>For housing, it includes lighting, eating, air conditioning and appliances (oven, dishwasher, laundry machine...)</b></li><br>
+        <li><span class="colorBrown">Transportation : </span> Transportation of goods and people use petrol (Oil, gas, diesel, kerosene). Over 20 years, transportation increased by 45%. The main transportation pollutions (45%) comes from <b>trucks and cars</b>. Maritime navigation (using the most polluting oil) and aviation shares the remaining pollution, by respectively 14% and 11%.</li><br>
+        <li><span class="colorBrown">Industrial sector: </span> This sector is responsible for around 20% of global CO2 emissions, and is divided into 4 different industries, including Manufacturing (paper, food, oil and gas chemical goods and metal and mineral productions), Constructions, Mining, and Agriculture (farming).</li><br>
     </ul>
 
 
   <li><span class="colorBlue">Deforestation and land use:</span>  responsible for 9% of the total CO2 emissions, it includes deforestation (for wood use or to convert the land into farming exploitation). Trees acts like "carbon sinks", so by reducing their quantities, the CO2 increase.</li><br>
   <div data-aos="fade-left">
 <img class="causesPic1 causesPic3" src="img/riskspictures/animal-bull-cattle-457447.jpg" alt="Cow"></div>
-  <li><span class="colorBlue">Ozone depletion:</span>  The ozone layer is a protection from our planet against UV rays and is composed of 3 oxygens atoms. However, human activities has  created an "ozone hole" (a region with depleted ozone) by man-made chemicals (CFCs and HCFCs), used in refregirators and Air conditioners, aerosols sprays, household cleaning products, home fournishing rigid and semi-rigid foams to isolate, packagings, plastics, eggs packaging, cups, fast food cartons, fire estinguishers, and textiles and lectronics industries. Ozone depletion is very dangerous and alarming because if we are not protected by this "natural protection", we have a highest risk of sunburns that have been linked with skin cancers, like in New Zealand and <a target="_blank" href="https://m.medicalxpress.com/news/2010-12-australians-world-highest-skin-cancer.html">Australia</a>.</li><br>
-  <li><span class="colorBlue">Methane emissions:</span> is, according to National Geographic, about 28 times more powerful than carbon dioxide over a 100 years scale and is therefore another greenhouse gas. However, researchers found that Methane stays in the atmosphere for around 12 years, contrary to ver a hunder years for carbon dioxide. Methane comes mainly from 2 sources:
+  <li><span class="colorBlue">Ozone depletion:</span>  The ozone layer is a protection from our planet against UV rays. However, human activities has created an "ozone hole" (a region with depleted ozone) by man-made chemicals (CFCs and HCFCs), used in refregirators and Air conditioners, aerosols sprays, household cleaning products, home fournishing rigid and semi-rigid foams to isolate, packagings, plastics, eggs packaging, cups, fast food cardboards, fire estinguishers, textiles and electronics devices. Ozone depletion is very dangerous and alarming because if we are not protected by this "natural layer", we have a highest risk of sunburns that have been linked with skin cancers, like in New Zealand and <a target="_blank" href="https://m.medicalxpress.com/news/2010-12-australians-world-highest-skin-cancer.html">Australia</a>.</li><br>
+  <li><span class="colorBlue">Methane emissions:</span> is, according to National Geographic, about 28 times more powerful than carbon dioxide over a 100 years scale and is therefore another greenhouse gas. However, researchers found that Methane stays in the atmosphere for around 12 years, contrary to around a hunder years for carbon dioxide. Methane comes mainly from 2 sources:
     <ul class="second-dropdown">
 
-      <li><span class="colorBrown">Animal husbandry: </span> according to Ted.com, "cows, pigs, sheep and other animals — are responsible for about 14.5 percent of global greenhouse gas emissions". Cows are the primary source of methan emissions, releasing daily between 30 to 50 gallons of methane.</li>
-      <li><span class="colorBrown">Human emissions: </span> methane also comes from human activity, including farming, landfills, leakages from fossil fuel industry, and plastic left either under the sun or under the sea.</li>
+      <li><span class="colorBrown">Animal husbandry: </span> according to Ted.com, "cows, pigs, sheeps and other animals — are responsible for about 14.5 percent of global greenhouse gas emissions". Cows are the primary source of methane emissions, releasing it daily between 30 to 50 gallons.</li>
+      <li><span class="colorBrown">Human emissions: </span> methane also comes from human activity, including farming, landfills, leakages from fossil fuel industry, and plastic left either under the sun or in the sea.</li>
     </ul>
 </li>
 </ul>
@@ -70,11 +70,16 @@ During this second revolution, World power countries like Europle, the USA and J
 <h2><i class="fas fa-exclamation-triangle"></i>  Risks if we don't do anything</h2>
 
 
-<p>Here's a sample of the risks we run if we dont do anything regarding Climate in the next few years. To see more, please visit <a href="https://interactive.carbonbrief.org/impacts-climate-change-one-point-five-degrees-two-degrees/" target="_blank">this great website.</a></p>
+<p>Here's a sample of the risks we run if we dont do anything regarding climate in the next few years. To see more, please visit <a href="https://interactive.carbonbrief.org/impacts-climate-change-one-point-five-degrees-two-degrees/" target="_blank">this great website.</a></p>
 
 
 
 <div class="slideshow-container">
+<div class="mySlides1 fade">
+  <img src="img/risks/ian-froome-AJFdEo-DKCg-unsplash.jpg" style="width:100%">
+  <div class="text">Storms, including typhoons and cyclones</div>
+</div>
+
   <div class="mySlides1 fade">
     <img src="img/risks/toomas-tartes-27HacQwqvA0-unsplash.jpg" style="width:100%">
     <div class="text">Overflowding in Asia</div>
@@ -98,11 +103,6 @@ During this second revolution, World power countries like Europle, the USA and J
 <div class="mySlides1 fade">
   <img src="img/risks/henry-co-cZpvuwwQQg0-unsplash.jpg" style="width:100%">
   <div class="text">Outdoor garbage</div>
-</div>
-
-<div class="mySlides1 fade">
-  <img src="img/risks/ian-froome-AJFdEo-DKCg-unsplash.jpg" style="width:100%">
-  <div class="text">Storms, including typhoons and cyclones</div>
 </div>
 
 <div class="mySlides1 fade">
@@ -137,10 +137,6 @@ During this second revolution, World power countries like Europle, the USA and J
 
 <p class="causes-conclusion">It's more than time to start now.</p> <br><br>
 
-<section class="bottom-cta">
-<button class="top" type="button" name="button"><a href="#top">Go back to top</a></button>
-<button class="cta" type="button" name="button"><a href="lifestyle.php">See how you can make a change</a></button>
-</section>
 <div data-aos="fade-up-right"></div>
 <img class="causesPic4" src="img/riskspictures/bright-bulb-close-up-1108572.jpg" alt="bulb and soil life"></div>
 </section>

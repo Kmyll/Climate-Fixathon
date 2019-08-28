@@ -5,25 +5,22 @@
 
   <h2><i class="fas fa-shoe-prints"></i> Carbon footprint per transport</h2>
   <p>
-    Before finding any transportation and commute solution, we need compare our CO2 emissions depending on the way we're going to use. For that, I'm going to use an <a href="https://consommerresponsable.com/empreinte-carbone-mode-de-transport-plus-polluant/" target="_blank">example</a> to go from Paris to Lyon in France (one way, 466 km).</p><br>
+    Before finding any transportation and commute solution, we need compare the CO2 emissions of the transport methods for the same travel. For that, I'm going to use an <a href="https://consommerresponsable.com/empreinte-carbone-mode-de-transport-plus-polluant/" target="_blank">example</a> from Paris to Lyon in France (one way, 466 km).</p><br>
 
     <ul>
-      <li>By plane: 96.6 kg</li>
-      <li>By car: 79.49 kg</li>
-      <li>By bus: 27.26 kg</li>
-      <li>By train: 1.49 kg</li>
-
-
-
+      <li><b>By plane:</b> 96.6 kg of CO2 emissions </li>
+      <li><b>By car:</b> 79.49 kg of CO2 emissions</li>
+      <li><b>By bus:</b> 27.26 kg of CO2 emissions</li>
+      <li><b>By train:</b> 1.49 kg of CO2 emissions</li>
     </ul>
     <br>
-    <p>I used a huge variety of calculators found on Google and the emissions are all different, but some numbers are similar.</p>
+    <p>I used a huge variety of calculators from Google to find out the emissions are all different, yet similar.</p>
 <br><br>
     <div id="chartdiv"></div>
     <br><br>
   <h2><i class="fas fa-bicycle"></i>Alternatives</h2>
 
-<p>The graphic shows that, for the same the same distance traveled, the Carbon emissions are completely different. Therefore :</p><br>
+<p>The graphic below shows that, for the same distance travelled, the carbon emissions are completely different for each transport method. Therefore :</p><br>
 
 <img class="train-station" src="img/transports/charles-forerunner-gapYVvUg1M8-unsplash.jpg" alt="train station">
 
@@ -31,9 +28,9 @@
   <li>Avoid flying if you have a chance to travel by car, bus or (even better) train</li>
   <li>Privilege public transport to go to work if possible</li>
   <li>Work from home at least one day in the week if you can</li>
-  <li>Try to carpool to work or when you go on vacation</li>
+  <li>Try to carpool to work or to go on vacation</li>
   <li>Participate to a public transport project in your city/county</li>
-  <li>Reduce your products importation if you can find a similar product near you.</li>
+  <li>Reduce your products importation if you can find a similar product near you (and shop locally whenever possible).</li>
   <li>If possible, walk or bike for short distances instead of taking your car (2-3km is perfectly doable walking distance and is good for your health)</li>
   <li>If you want to change your car, switch to a hybrid/electric vehicle</li>
   <li>Improve your driving style by avoiding speeding and suddent braking</li>
@@ -42,12 +39,6 @@
   <li>Fly in economy class: There's more people in economy class so the CO2 emission is shared by more travelers</li>
 </ul>
 
-
-<section class="bottom-cta">
-<button class="top" type="button" name="button"><a href="#top">Go back to top</a></button>
-<button class="cta" type="button" name="button"><a href="lifestyle.php">See how you can improve your lifestyle</a></button>
-
-</section>
 </div>
 <?php include "footer.php" ?>
 
@@ -143,4 +134,4 @@
   }); // end am4core.ready()
 </script>
 
-<!-- HTML -->
+
