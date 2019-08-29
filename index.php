@@ -2,7 +2,7 @@
 
 <section class="header-img">
   <div class="presentation">
-    <h1>For a better world</h1>
+    <h1>Fix the Earth</h1>
     <h2>Reverse climate breakdown</h2>
     <a href="#bubble-pres"><h3 ><i class=" chevron fas fa-chevron-down"></i></h3></a>
   </div>

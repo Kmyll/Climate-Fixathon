@@ -8,7 +8,7 @@
   <p><em>Last updated: August 26, 2019</em></p>
 <br><br>
 
-  <p>Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the <a target="_blank"  href="fix-the-earth.com">http://fix-the-earth.com </a> website (the "Service") operated by Climate Fixathon ("us", "we", or "our").</p>
+  <p>Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the <a target="_blank"  href="fix-the-earth.com">https://fix-the-earth.herokuapp.com/ </a> website (the "Service") operated by Climate Fixathon ("us", "we", or "our").</p>
 
   <p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.</p>
 
